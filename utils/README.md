@@ -25,3 +25,10 @@ place the ply and txt files to the build folder
 ```bash
 ./show_traj predicted.ply predicted.txt
 ```
+
+##Annotation
+- If you want to create your annotation, you can use the following annotation tool
+https://github.com/himlen1990/toolbox/tree/master/annotation_tool
+
+## Notice
+When creating your custom dataset, make sure the function points are set to 255 in the blue channel and the no function points are set to 255 is the red channel (a pouring example is given in dataset/train_data)
