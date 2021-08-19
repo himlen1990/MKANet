@@ -1,7 +1,7 @@
 # Utils for dataset generation and result visualization
 
 ## Environment
--pcl1.7 or 1.8(if your pcl version is 1.8, modify the CMakeLists)
+- pcl1.7 or 1.8(if your pcl version is 1.8, modify the CMakeLists)
 
 ## Install
 ```bash
@@ -26,7 +26,7 @@ place the ply and txt files to the build folder
 ./show_traj predicted.ply predicted.txt
 ```
 
-##Annotation
+## Annotation
 - If you want to create your annotation, you can use the following annotation tool
 https://github.com/himlen1990/toolbox/tree/master/annotation_tool
 
