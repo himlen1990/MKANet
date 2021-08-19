@@ -1,11 +1,11 @@
 # The depoly part
 
--Notice that you do not need a gpu in the depoly phase, so you can depoly the trained result in your notebook.
+- Notice that you do not need a gpu in the depoly phase, so you can depoly the trained result in your notebook.
 
 ---
 ## Environment
 ---
-Tensorflow 1.4 (running within anaconda is recommended)
+- Tensorflow 1.4 (running within anaconda is recommended)
 
 ```bash
 pip install tensorflow==1.4.0
@@ -17,10 +17,10 @@ sh tf_complie.sh
 ```
 
 ## Deploy
--replace the log folder with you trained result.
+- Replace the log folder with you trained result.
 ```bash
 python test.py test_data/1.ply
 ```
 
-##Result visualization
--Check the MKANet/utils directory
+## Result visualization
+- Check the MKANet/utils directory
