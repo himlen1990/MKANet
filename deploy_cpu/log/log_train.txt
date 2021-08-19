@@ -1,0 +1,4247 @@
+Namespace(batch_size=2, decay_rate=0.7, decay_step=200000, gpu=0, learning_rate=0.0001, log_dir='log', max_epoch=101, model='mkanet', momentum=0.9, num_point=2400, optimizer='adam')
+pid: 3351
+**** EPOCH 000 ****
+2021-08-17 07:39:52.783449
+ -- 010 / 100 --
+mean loss: 0.200885
+mean regloss: 0.147476
+accuracy: 0.603688
+ -- 020 / 100 --
+mean loss: 0.394517
+mean regloss: 0.288076
+accuracy: 0.640469
+ -- 030 / 100 --
+mean loss: 0.580856
+mean regloss: 0.421695
+accuracy: 0.669167
+ -- 040 / 100 --
+mean loss: 0.760415
+mean regloss: 0.549408
+accuracy: 0.687573
+ -- 050 / 100 --
+mean loss: 0.929726
+mean regloss: 0.667158
+accuracy: 0.701333
+ -- 060 / 100 --
+mean loss: 1.087460
+mean regloss: 0.773915
+accuracy: 0.710910
+ -- 070 / 100 --
+mean loss: 1.231383
+mean regloss: 0.867605
+accuracy: 0.718256
+ -- 080 / 100 --
+mean loss: 1.362521
+mean regloss: 0.949935
+accuracy: 0.723685
+ -- 090 / 100 --
+mean loss: 1.476966
+mean regloss: 1.017009
+accuracy: 0.728343
+ -- 100 / 100 --
+mean loss: 1.580587
+mean regloss: 1.074015
+accuracy: 0.731706
+Model saved in file: log/model.ckpt
+**** EPOCH 001 ****
+2021-08-17 07:39:54.993261
+ -- 010 / 100 --
+mean loss: 0.095416
+mean regloss: 0.049086
+accuracy: 0.764938
+ -- 020 / 100 --
+mean loss: 0.186247
+mean regloss: 0.094080
+accuracy: 0.765052
+ -- 030 / 100 --
+mean loss: 0.274223
+mean regloss: 0.135890
+accuracy: 0.763590
+ -- 040 / 100 --
+mean loss: 0.358858
+mean regloss: 0.175099
+accuracy: 0.763375
+ -- 050 / 100 --
+mean loss: 0.442244
+mean regloss: 0.213795
+accuracy: 0.763350
+ -- 060 / 100 --
+mean loss: 0.524626
+mean regloss: 0.252425
+accuracy: 0.763493
+ -- 070 / 100 --
+mean loss: 0.605138
+mean regloss: 0.289322
+accuracy: 0.762991
+ -- 080 / 100 --
+mean loss: 0.684096
+mean regloss: 0.325565
+accuracy: 0.763031
+ -- 090 / 100 --
+mean loss: 0.764252
+mean regloss: 0.363352
+accuracy: 0.762833
+ -- 100 / 100 --
+mean loss: 0.841649
+mean regloss: 0.398741
+accuracy: 0.763308
+**** EPOCH 002 ****
+2021-08-17 07:39:56.544647
+ -- 010 / 100 --
+mean loss: 0.075421
+mean regloss: 0.033183
+accuracy: 0.762062
+ -- 020 / 100 --
+mean loss: 0.156504
+mean regloss: 0.072379
+accuracy: 0.763219
+ -- 030 / 100 --
+mean loss: 0.233692
+mean regloss: 0.107826
+accuracy: 0.764139
+ -- 040 / 100 --
+mean loss: 0.310775
+mean regloss: 0.143163
+accuracy: 0.764380
+ -- 050 / 100 --
+mean loss: 0.386904
+mean regloss: 0.177200
+accuracy: 0.763642
+ -- 060 / 100 --
+mean loss: 0.462444
+mean regloss: 0.210959
+accuracy: 0.763535
+ -- 070 / 100 --
+mean loss: 0.537803
+mean regloss: 0.244332
+accuracy: 0.763568
+ -- 080 / 100 --
+mean loss: 0.614560
+mean regloss: 0.279191
+accuracy: 0.763339
+ -- 090 / 100 --
+mean loss: 0.689345
+mean regloss: 0.311937
+accuracy: 0.763231
+ -- 100 / 100 --
+mean loss: 0.763123
+mean regloss: 0.343501
+accuracy: 0.763312
+**** EPOCH 003 ****
+2021-08-17 07:39:58.115448
+ -- 010 / 100 --
+mean loss: 0.071289
+mean regloss: 0.028787
+accuracy: 0.761792
+ -- 020 / 100 --
+mean loss: 0.151418
+mean regloss: 0.067267
+accuracy: 0.760854
+ -- 030 / 100 --
+mean loss: 0.227743
+mean regloss: 0.102245
+accuracy: 0.762160
+ -- 040 / 100 --
+mean loss: 0.302268
+mean regloss: 0.134859
+accuracy: 0.762901
+ -- 050 / 100 --
+mean loss: 0.377407
+mean regloss: 0.168100
+accuracy: 0.763000
+ -- 060 / 100 --
+mean loss: 0.449498
+mean regloss: 0.198143
+accuracy: 0.763014
+ -- 070 / 100 --
+mean loss: 0.523266
+mean regloss: 0.230285
+accuracy: 0.763214
+ -- 080 / 100 --
+mean loss: 0.596397
+mean regloss: 0.261691
+accuracy: 0.763396
+ -- 090 / 100 --
+mean loss: 0.669986
+mean regloss: 0.293028
+accuracy: 0.763083
+ -- 100 / 100 --
+mean loss: 0.740275
+mean regloss: 0.321118
+accuracy: 0.763310
+**** EPOCH 004 ****
+2021-08-17 07:39:59.669953
+ -- 010 / 100 --
+mean loss: 0.073570
+mean regloss: 0.032398
+accuracy: 0.766667
+ -- 020 / 100 --
+mean loss: 0.148779
+mean regloss: 0.066135
+accuracy: 0.764854
+ -- 030 / 100 --
+mean loss: 0.217959
+mean regloss: 0.092899
+accuracy: 0.764049
+ -- 040 / 100 --
+mean loss: 0.288288
+mean regloss: 0.121033
+accuracy: 0.763927
+ -- 050 / 100 --
+mean loss: 0.358057
+mean regloss: 0.148732
+accuracy: 0.763996
+ -- 060 / 100 --
+mean loss: 0.427584
+mean regloss: 0.175865
+accuracy: 0.763229
+ -- 070 / 100 --
+mean loss: 0.502469
+mean regloss: 0.209494
+accuracy: 0.763426
+ -- 080 / 100 --
+mean loss: 0.573290
+mean regloss: 0.238430
+accuracy: 0.763737
+ -- 090 / 100 --
+mean loss: 0.641233
+mean regloss: 0.264291
+accuracy: 0.763655
+ -- 100 / 100 --
+mean loss: 0.706348
+mean regloss: 0.286503
+accuracy: 0.763325
+**** EPOCH 005 ****
+2021-08-17 07:40:01.262177
+ -- 010 / 100 --
+mean loss: 0.066572
+mean regloss: 0.024104
+accuracy: 0.761646
+ -- 020 / 100 --
+mean loss: 0.136687
+mean regloss: 0.052597
+accuracy: 0.763687
+ -- 030 / 100 --
+mean loss: 0.199559
+mean regloss: 0.072625
+accuracy: 0.763444
+ -- 040 / 100 --
+mean loss: 0.268409
+mean regloss: 0.099585
+accuracy: 0.763229
+ -- 050 / 100 --
+mean loss: 0.332374
+mean regloss: 0.121264
+accuracy: 0.763521
+ -- 060 / 100 --
+mean loss: 0.395018
+mean regloss: 0.141869
+accuracy: 0.763726
+ -- 070 / 100 --
+mean loss: 0.458146
+mean regloss: 0.163284
+accuracy: 0.764030
+ -- 080 / 100 --
+mean loss: 0.527029
+mean regloss: 0.190908
+accuracy: 0.765453
+ -- 090 / 100 --
+mean loss: 0.595678
+mean regloss: 0.218391
+accuracy: 0.766606
+ -- 100 / 100 --
+mean loss: 0.661660
+mean regloss: 0.242669
+accuracy: 0.767256
+**** EPOCH 006 ****
+2021-08-17 07:40:02.796223
+ -- 010 / 100 --
+mean loss: 0.061656
+mean regloss: 0.019913
+accuracy: 0.770708
+ -- 020 / 100 --
+mean loss: 0.123565
+mean regloss: 0.040225
+accuracy: 0.774865
+ -- 030 / 100 --
+mean loss: 0.187333
+mean regloss: 0.062853
+accuracy: 0.779639
+ -- 040 / 100 --
+mean loss: 0.250450
+mean regloss: 0.084960
+accuracy: 0.780167
+ -- 050 / 100 --
+mean loss: 0.311843
+mean regloss: 0.105378
+accuracy: 0.780883
+ -- 060 / 100 --
+mean loss: 0.373954
+mean regloss: 0.127080
+accuracy: 0.784017
+ -- 070 / 100 --
+mean loss: 0.430803
+mean regloss: 0.143479
+accuracy: 0.787167
+ -- 080 / 100 --
+mean loss: 0.483756
+mean regloss: 0.155789
+accuracy: 0.791068
+ -- 090 / 100 --
+mean loss: 0.541661
+mean regloss: 0.174045
+accuracy: 0.794111
+ -- 100 / 100 --
+mean loss: 0.601349
+mean regloss: 0.195093
+accuracy: 0.797748
+**** EPOCH 007 ****
+2021-08-17 07:40:04.348637
+ -- 010 / 100 --
+mean loss: 0.052015
+mean regloss: 0.013431
+accuracy: 0.840917
+ -- 020 / 100 --
+mean loss: 0.107960
+mean regloss: 0.032114
+accuracy: 0.855552
+ -- 030 / 100 --
+mean loss: 0.158389
+mean regloss: 0.045705
+accuracy: 0.861931
+ -- 040 / 100 --
+mean loss: 0.210349
+mean regloss: 0.062031
+accuracy: 0.864464
+ -- 050 / 100 --
+mean loss: 0.257091
+mean regloss: 0.074223
+accuracy: 0.872738
+ -- 060 / 100 --
+mean loss: 0.307513
+mean regloss: 0.091427
+accuracy: 0.875524
+ -- 070 / 100 --
+mean loss: 0.353829
+mean regloss: 0.106165
+accuracy: 0.881086
+ -- 080 / 100 --
+mean loss: 0.396456
+mean regloss: 0.118067
+accuracy: 0.885081
+ -- 090 / 100 --
+mean loss: 0.440985
+mean regloss: 0.133845
+accuracy: 0.888731
+ -- 100 / 100 --
+mean loss: 0.483668
+mean regloss: 0.150391
+accuracy: 0.892390
+**** EPOCH 008 ****
+2021-08-17 07:40:05.917296
+ -- 010 / 100 --
+mean loss: 0.040658
+mean regloss: 0.016555
+accuracy: 0.924375
+ -- 020 / 100 --
+mean loss: 0.071790
+mean regloss: 0.024935
+accuracy: 0.927021
+ -- 030 / 100 --
+mean loss: 0.105420
+mean regloss: 0.038280
+accuracy: 0.927819
+ -- 040 / 100 --
+mean loss: 0.137691
+mean regloss: 0.052326
+accuracy: 0.931422
+ -- 050 / 100 --
+mean loss: 0.168021
+mean regloss: 0.062497
+accuracy: 0.930987
+ -- 060 / 100 --
+mean loss: 0.201355
+mean regloss: 0.078481
+accuracy: 0.931299
+ -- 070 / 100 --
+mean loss: 0.230419
+mean regloss: 0.093823
+accuracy: 0.934833
+ -- 080 / 100 --
+mean loss: 0.252995
+mean regloss: 0.102375
+accuracy: 0.937312
+ -- 090 / 100 --
+mean loss: 0.274064
+mean regloss: 0.109251
+accuracy: 0.938669
+ -- 100 / 100 --
+mean loss: 0.293432
+mean regloss: 0.115186
+accuracy: 0.940467
+**** EPOCH 009 ****
+2021-08-17 07:40:07.475839
+ -- 010 / 100 --
+mean loss: 0.018969
+mean regloss: 0.007066
+accuracy: 0.966458
+ -- 020 / 100 --
+mean loss: 0.037943
+mean regloss: 0.015035
+accuracy: 0.965448
+ -- 030 / 100 --
+mean loss: 0.055027
+mean regloss: 0.018862
+accuracy: 0.962507
+ -- 040 / 100 --
+mean loss: 0.076301
+mean regloss: 0.029172
+accuracy: 0.961974
+ -- 050 / 100 --
+mean loss: 0.098566
+mean regloss: 0.041188
+accuracy: 0.962796
+ -- 060 / 100 --
+mean loss: 0.118795
+mean regloss: 0.051214
+accuracy: 0.963125
+ -- 070 / 100 --
+mean loss: 0.136442
+mean regloss: 0.058328
+accuracy: 0.963530
+ -- 080 / 100 --
+mean loss: 0.155046
+mean regloss: 0.067322
+accuracy: 0.964120
+ -- 090 / 100 --
+mean loss: 0.170587
+mean regloss: 0.072625
+accuracy: 0.964743
+ -- 100 / 100 --
+mean loss: 0.190311
+mean regloss: 0.083022
+accuracy: 0.965163
+**** EPOCH 010 ****
+2021-08-17 07:40:09.045192
+ -- 010 / 100 --
+mean loss: 0.014460
+mean regloss: 0.004515
+accuracy: 0.968646
+ -- 020 / 100 --
+mean loss: 0.033670
+mean regloss: 0.014934
+accuracy: 0.970146
+ -- 030 / 100 --
+mean loss: 0.048793
+mean regloss: 0.020857
+accuracy: 0.970493
+ -- 040 / 100 --
+mean loss: 0.067274
+mean regloss: 0.030434
+accuracy: 0.970198
+ -- 050 / 100 --
+mean loss: 0.083490
+mean regloss: 0.037162
+accuracy: 0.970075
+ -- 060 / 100 --
+mean loss: 0.099055
+mean regloss: 0.042549
+accuracy: 0.968913
+ -- 070 / 100 --
+mean loss: 0.114013
+mean regloss: 0.047589
+accuracy: 0.968536
+ -- 080 / 100 --
+mean loss: 0.129771
+mean regloss: 0.055898
+accuracy: 0.969820
+ -- 090 / 100 --
+mean loss: 0.145986
+mean regloss: 0.064706
+accuracy: 0.970762
+ -- 100 / 100 --
+mean loss: 0.159380
+mean regloss: 0.069832
+accuracy: 0.971310
+**** EPOCH 011 ****
+2021-08-17 07:40:10.589158
+ -- 010 / 100 --
+mean loss: 0.013610
+mean regloss: 0.006049
+accuracy: 0.977792
+ -- 020 / 100 --
+mean loss: 0.027029
+mean regloss: 0.011374
+accuracy: 0.976698
+ -- 030 / 100 --
+mean loss: 0.042652
+mean regloss: 0.019448
+accuracy: 0.976840
+ -- 040 / 100 --
+mean loss: 0.053171
+mean regloss: 0.022055
+accuracy: 0.977385
+ -- 050 / 100 --
+mean loss: 0.066027
+mean regloss: 0.027512
+accuracy: 0.977804
+ -- 060 / 100 --
+mean loss: 0.082158
+mean regloss: 0.036492
+accuracy: 0.977597
+ -- 070 / 100 --
+mean loss: 0.097240
+mean regloss: 0.043595
+accuracy: 0.977104
+ -- 080 / 100 --
+mean loss: 0.113051
+mean regloss: 0.051082
+accuracy: 0.976474
+ -- 090 / 100 --
+mean loss: 0.129083
+mean regloss: 0.058309
+accuracy: 0.975685
+ -- 100 / 100 --
+mean loss: 0.143278
+mean regloss: 0.064248
+accuracy: 0.975354
+**** EPOCH 012 ****
+2021-08-17 07:40:12.160803
+ -- 010 / 100 --
+mean loss: 0.015159
+mean regloss: 0.006980
+accuracy: 0.972063
+ -- 020 / 100 --
+mean loss: 0.029330
+mean regloss: 0.012874
+accuracy: 0.971156
+ -- 030 / 100 --
+mean loss: 0.044446
+mean regloss: 0.019885
+accuracy: 0.971729
+ -- 040 / 100 --
+mean loss: 0.057799
+mean regloss: 0.025240
+accuracy: 0.972161
+ -- 050 / 100 --
+mean loss: 0.072615
+mean regloss: 0.033349
+accuracy: 0.973608
+ -- 060 / 100 --
+mean loss: 0.085525
+mean regloss: 0.038999
+accuracy: 0.974361
+ -- 070 / 100 --
+mean loss: 0.096474
+mean regloss: 0.042648
+accuracy: 0.975199
+ -- 080 / 100 --
+mean loss: 0.109141
+mean regloss: 0.048338
+accuracy: 0.975609
+ -- 090 / 100 --
+mean loss: 0.123602
+mean regloss: 0.055873
+accuracy: 0.976030
+ -- 100 / 100 --
+mean loss: 0.134355
+mean regloss: 0.059548
+accuracy: 0.976402
+**** EPOCH 013 ****
+2021-08-17 07:40:13.704017
+ -- 010 / 100 --
+mean loss: 0.014396
+mean regloss: 0.007516
+accuracy: 0.977896
+ -- 020 / 100 --
+mean loss: 0.026140
+mean regloss: 0.011144
+accuracy: 0.975510
+ -- 030 / 100 --
+mean loss: 0.037192
+mean regloss: 0.014253
+accuracy: 0.975458
+ -- 040 / 100 --
+mean loss: 0.050222
+mean regloss: 0.019724
+accuracy: 0.975729
+ -- 050 / 100 --
+mean loss: 0.063866
+mean regloss: 0.026641
+accuracy: 0.976354
+ -- 060 / 100 --
+mean loss: 0.078470
+mean regloss: 0.034769
+accuracy: 0.977156
+ -- 070 / 100 --
+mean loss: 0.089246
+mean regloss: 0.038729
+accuracy: 0.977568
+ -- 080 / 100 --
+mean loss: 0.101238
+mean regloss: 0.044340
+accuracy: 0.977995
+ -- 090 / 100 --
+mean loss: 0.112159
+mean regloss: 0.048415
+accuracy: 0.978019
+ -- 100 / 100 --
+mean loss: 0.123401
+mean regloss: 0.052615
+accuracy: 0.978127
+**** EPOCH 014 ****
+2021-08-17 07:40:15.265846
+ -- 010 / 100 --
+mean loss: 0.013661
+mean regloss: 0.006551
+accuracy: 0.976063
+ -- 020 / 100 --
+mean loss: 0.025552
+mean regloss: 0.011775
+accuracy: 0.977698
+ -- 030 / 100 --
+mean loss: 0.036355
+mean regloss: 0.015907
+accuracy: 0.978799
+ -- 040 / 100 --
+mean loss: 0.045464
+mean regloss: 0.018381
+accuracy: 0.979443
+ -- 050 / 100 --
+mean loss: 0.055976
+mean regloss: 0.022191
+accuracy: 0.979500
+ -- 060 / 100 --
+mean loss: 0.068820
+mean regloss: 0.029010
+accuracy: 0.979878
+ -- 070 / 100 --
+mean loss: 0.080905
+mean regloss: 0.034481
+accuracy: 0.980068
+ -- 080 / 100 --
+mean loss: 0.096130
+mean regloss: 0.043664
+accuracy: 0.980109
+ -- 090 / 100 --
+mean loss: 0.107671
+mean regloss: 0.047836
+accuracy: 0.979718
+ -- 100 / 100 --
+mean loss: 0.119291
+mean regloss: 0.052218
+accuracy: 0.979340
+**** EPOCH 015 ****
+2021-08-17 07:40:16.848501
+ -- 010 / 100 --
+mean loss: 0.010325
+mean regloss: 0.002336
+accuracy: 0.974313
+ -- 020 / 100 --
+mean loss: 0.020789
+mean regloss: 0.005972
+accuracy: 0.976469
+ -- 030 / 100 --
+mean loss: 0.032240
+mean regloss: 0.010724
+accuracy: 0.977222
+ -- 040 / 100 --
+mean loss: 0.043763
+mean regloss: 0.016119
+accuracy: 0.978328
+ -- 050 / 100 --
+mean loss: 0.055272
+mean regloss: 0.021490
+accuracy: 0.978979
+ -- 060 / 100 --
+mean loss: 0.066946
+mean regloss: 0.026811
+accuracy: 0.978858
+ -- 070 / 100 --
+mean loss: 0.077698
+mean regloss: 0.030918
+accuracy: 0.979202
+ -- 080 / 100 --
+mean loss: 0.086765
+mean regloss: 0.033491
+accuracy: 0.979378
+ -- 090 / 100 --
+mean loss: 0.102145
+mean regloss: 0.043226
+accuracy: 0.979618
+ -- 100 / 100 --
+mean loss: 0.114548
+mean regloss: 0.049482
+accuracy: 0.979719
+**** EPOCH 016 ****
+2021-08-17 07:40:18.409248
+ -- 010 / 100 --
+mean loss: 0.008510
+mean regloss: 0.002320
+accuracy: 0.983042
+ -- 020 / 100 --
+mean loss: 0.020963
+mean regloss: 0.009151
+accuracy: 0.982240
+ -- 030 / 100 --
+mean loss: 0.030448
+mean regloss: 0.012355
+accuracy: 0.981938
+ -- 040 / 100 --
+mean loss: 0.039212
+mean regloss: 0.014278
+accuracy: 0.981380
+ -- 050 / 100 --
+mean loss: 0.050931
+mean regloss: 0.019572
+accuracy: 0.980983
+ -- 060 / 100 --
+mean loss: 0.065274
+mean regloss: 0.028173
+accuracy: 0.981038
+ -- 070 / 100 --
+mean loss: 0.074910
+mean regloss: 0.031778
+accuracy: 0.981199
+ -- 080 / 100 --
+mean loss: 0.086604
+mean regloss: 0.037726
+accuracy: 0.981336
+ -- 090 / 100 --
+mean loss: 0.097631
+mean regloss: 0.042761
+accuracy: 0.981266
+ -- 100 / 100 --
+mean loss: 0.107862
+mean regloss: 0.046925
+accuracy: 0.981402
+**** EPOCH 017 ****
+2021-08-17 07:40:19.978093
+ -- 010 / 100 --
+mean loss: 0.009546
+mean regloss: 0.003590
+accuracy: 0.982292
+ -- 020 / 100 --
+mean loss: 0.020900
+mean regloss: 0.009087
+accuracy: 0.982083
+ -- 030 / 100 --
+mean loss: 0.031135
+mean regloss: 0.013232
+accuracy: 0.981951
+ -- 040 / 100 --
+mean loss: 0.039980
+mean regloss: 0.016326
+accuracy: 0.982229
+ -- 050 / 100 --
+mean loss: 0.048502
+mean regloss: 0.018931
+accuracy: 0.982275
+ -- 060 / 100 --
+mean loss: 0.059578
+mean regloss: 0.024235
+accuracy: 0.982118
+ -- 070 / 100 --
+mean loss: 0.068661
+mean regloss: 0.027144
+accuracy: 0.982033
+ -- 080 / 100 --
+mean loss: 0.085083
+mean regloss: 0.038180
+accuracy: 0.981883
+ -- 090 / 100 --
+mean loss: 0.096221
+mean regloss: 0.043901
+accuracy: 0.982187
+ -- 100 / 100 --
+mean loss: 0.106086
+mean regloss: 0.048209
+accuracy: 0.982304
+**** EPOCH 018 ****
+2021-08-17 07:40:21.545431
+ -- 010 / 100 --
+mean loss: 0.010040
+mean regloss: 0.004444
+accuracy: 0.982688
+ -- 020 / 100 --
+mean loss: 0.021735
+mean regloss: 0.009766
+accuracy: 0.979823
+ -- 030 / 100 --
+mean loss: 0.033468
+mean regloss: 0.014350
+accuracy: 0.978361
+ -- 040 / 100 --
+mean loss: 0.044285
+mean regloss: 0.018332
+accuracy: 0.978010
+ -- 050 / 100 --
+mean loss: 0.053382
+mean regloss: 0.021344
+accuracy: 0.978575
+ -- 060 / 100 --
+mean loss: 0.063641
+mean regloss: 0.025608
+accuracy: 0.978927
+ -- 070 / 100 --
+mean loss: 0.072833
+mean regloss: 0.028931
+accuracy: 0.979354
+ -- 080 / 100 --
+mean loss: 0.085896
+mean regloss: 0.036803
+accuracy: 0.979786
+ -- 090 / 100 --
+mean loss: 0.094889
+mean regloss: 0.040030
+accuracy: 0.980042
+ -- 100 / 100 --
+mean loss: 0.104104
+mean regloss: 0.043413
+accuracy: 0.980240
+**** EPOCH 019 ****
+2021-08-17 07:40:23.107435
+ -- 010 / 100 --
+mean loss: 0.010998
+mean regloss: 0.005866
+accuracy: 0.983104
+ -- 020 / 100 --
+mean loss: 0.021878
+mean regloss: 0.011096
+accuracy: 0.982219
+ -- 030 / 100 --
+mean loss: 0.030883
+mean regloss: 0.013859
+accuracy: 0.981826
+ -- 040 / 100 --
+mean loss: 0.041066
+mean regloss: 0.018779
+accuracy: 0.982266
+ -- 050 / 100 --
+mean loss: 0.048321
+mean regloss: 0.020172
+accuracy: 0.982467
+ -- 060 / 100 --
+mean loss: 0.056175
+mean regloss: 0.022239
+accuracy: 0.982608
+ -- 070 / 100 --
+mean loss: 0.067566
+mean regloss: 0.028310
+accuracy: 0.982592
+ -- 080 / 100 --
+mean loss: 0.077565
+mean regloss: 0.032195
+accuracy: 0.982247
+ -- 090 / 100 --
+mean loss: 0.088289
+mean regloss: 0.037277
+accuracy: 0.982215
+ -- 100 / 100 --
+mean loss: 0.097393
+mean regloss: 0.040474
+accuracy: 0.982185
+**** EPOCH 020 ****
+2021-08-17 07:40:24.676712
+ -- 010 / 100 --
+mean loss: 0.010111
+mean regloss: 0.004734
+accuracy: 0.982812
+ -- 020 / 100 --
+mean loss: 0.019805
+mean regloss: 0.008497
+accuracy: 0.982125
+ -- 030 / 100 --
+mean loss: 0.029436
+mean regloss: 0.012242
+accuracy: 0.981792
+ -- 040 / 100 --
+mean loss: 0.039627
+mean regloss: 0.016925
+accuracy: 0.981797
+ -- 050 / 100 --
+mean loss: 0.050391
+mean regloss: 0.022512
+accuracy: 0.982171
+ -- 060 / 100 --
+mean loss: 0.063951
+mean regloss: 0.030966
+accuracy: 0.982330
+ -- 070 / 100 --
+mean loss: 0.072878
+mean regloss: 0.034509
+accuracy: 0.982560
+ -- 080 / 100 --
+mean loss: 0.080529
+mean regloss: 0.036667
+accuracy: 0.982667
+ -- 090 / 100 --
+mean loss: 0.087243
+mean regloss: 0.037928
+accuracy: 0.982745
+ -- 100 / 100 --
+mean loss: 0.095034
+mean regloss: 0.039183
+accuracy: 0.982333
+**** EPOCH 021 ****
+2021-08-17 07:40:26.241767
+ -- 010 / 100 --
+mean loss: 0.008223
+mean regloss: 0.002286
+accuracy: 0.981208
+ -- 020 / 100 --
+mean loss: 0.016662
+mean regloss: 0.005209
+accuracy: 0.981771
+ -- 030 / 100 --
+mean loss: 0.025836
+mean regloss: 0.008897
+accuracy: 0.982132
+ -- 040 / 100 --
+mean loss: 0.036801
+mean regloss: 0.014426
+accuracy: 0.981880
+ -- 050 / 100 --
+mean loss: 0.046381
+mean regloss: 0.016884
+accuracy: 0.980592
+ -- 060 / 100 --
+mean loss: 0.054437
+mean regloss: 0.019129
+accuracy: 0.980840
+ -- 070 / 100 --
+mean loss: 0.062044
+mean regloss: 0.020946
+accuracy: 0.980890
+ -- 080 / 100 --
+mean loss: 0.076254
+mean regloss: 0.026580
+accuracy: 0.979289
+ -- 090 / 100 --
+mean loss: 0.096070
+mean regloss: 0.032121
+accuracy: 0.975965
+ -- 100 / 100 --
+mean loss: 0.112308
+mean regloss: 0.036454
+accuracy: 0.974235
+**** EPOCH 022 ****
+2021-08-17 07:40:27.817912
+ -- 010 / 100 --
+mean loss: 0.010361
+mean regloss: 0.003115
+accuracy: 0.973938
+ -- 020 / 100 --
+mean loss: 0.023833
+mean regloss: 0.009376
+accuracy: 0.973271
+ -- 030 / 100 --
+mean loss: 0.032445
+mean regloss: 0.010648
+accuracy: 0.973826
+ -- 040 / 100 --
+mean loss: 0.044667
+mean regloss: 0.016963
+accuracy: 0.975292
+ -- 050 / 100 --
+mean loss: 0.054677
+mean regloss: 0.020402
+accuracy: 0.975604
+ -- 060 / 100 --
+mean loss: 0.063356
+mean regloss: 0.022541
+accuracy: 0.975990
+ -- 070 / 100 --
+mean loss: 0.073003
+mean regloss: 0.026856
+accuracy: 0.977036
+ -- 080 / 100 --
+mean loss: 0.081163
+mean regloss: 0.029471
+accuracy: 0.977862
+ -- 090 / 100 --
+mean loss: 0.092635
+mean regloss: 0.035505
+accuracy: 0.978340
+ -- 100 / 100 --
+mean loss: 0.101357
+mean regloss: 0.037755
+accuracy: 0.978352
+**** EPOCH 023 ****
+2021-08-17 07:40:29.370635
+ -- 010 / 100 --
+mean loss: 0.008542
+mean regloss: 0.002887
+accuracy: 0.982313
+ -- 020 / 100 --
+mean loss: 0.019044
+mean regloss: 0.008358
+accuracy: 0.983656
+ -- 030 / 100 --
+mean loss: 0.028378
+mean regloss: 0.012212
+accuracy: 0.983340
+ -- 040 / 100 --
+mean loss: 0.037878
+mean regloss: 0.016650
+accuracy: 0.983526
+ -- 050 / 100 --
+mean loss: 0.047758
+mean regloss: 0.021574
+accuracy: 0.983646
+ -- 060 / 100 --
+mean loss: 0.055615
+mean regloss: 0.024148
+accuracy: 0.983819
+ -- 070 / 100 --
+mean loss: 0.062908
+mean regloss: 0.026110
+accuracy: 0.984051
+ -- 080 / 100 --
+mean loss: 0.070573
+mean regloss: 0.028380
+accuracy: 0.984023
+ -- 090 / 100 --
+mean loss: 0.079401
+mean regloss: 0.031831
+accuracy: 0.983938
+ -- 100 / 100 --
+mean loss: 0.087444
+mean regloss: 0.034101
+accuracy: 0.983667
+**** EPOCH 024 ****
+2021-08-17 07:40:30.967241
+ -- 010 / 100 --
+mean loss: 0.008493
+mean regloss: 0.003091
+accuracy: 0.983271
+ -- 020 / 100 --
+mean loss: 0.017029
+mean regloss: 0.005931
+accuracy: 0.982688
+ -- 030 / 100 --
+mean loss: 0.026755
+mean regloss: 0.010383
+accuracy: 0.982792
+ -- 040 / 100 --
+mean loss: 0.037252
+mean regloss: 0.015738
+accuracy: 0.982927
+ -- 050 / 100 --
+mean loss: 0.043981
+mean regloss: 0.017152
+accuracy: 0.983117
+ -- 060 / 100 --
+mean loss: 0.053398
+mean regloss: 0.021685
+accuracy: 0.983274
+ -- 070 / 100 --
+mean loss: 0.063238
+mean regloss: 0.026112
+accuracy: 0.983080
+ -- 080 / 100 --
+mean loss: 0.070326
+mean regloss: 0.027976
+accuracy: 0.983203
+ -- 090 / 100 --
+mean loss: 0.078298
+mean regloss: 0.030449
+accuracy: 0.983187
+ -- 100 / 100 --
+mean loss: 0.085209
+mean regloss: 0.032414
+accuracy: 0.983363
+**** EPOCH 025 ****
+2021-08-17 07:40:32.528449
+ -- 010 / 100 --
+mean loss: 0.007298
+mean regloss: 0.001981
+accuracy: 0.983833
+ -- 020 / 100 --
+mean loss: 0.018349
+mean regloss: 0.007886
+accuracy: 0.983146
+ -- 030 / 100 --
+mean loss: 0.027029
+mean regloss: 0.010831
+accuracy: 0.982556
+ -- 040 / 100 --
+mean loss: 0.035109
+mean regloss: 0.012657
+accuracy: 0.981724
+ -- 050 / 100 --
+mean loss: 0.045532
+mean regloss: 0.017565
+accuracy: 0.981558
+ -- 060 / 100 --
+mean loss: 0.054108
+mean regloss: 0.020901
+accuracy: 0.981819
+ -- 070 / 100 --
+mean loss: 0.061545
+mean regloss: 0.022897
+accuracy: 0.981970
+ -- 080 / 100 --
+mean loss: 0.068204
+mean regloss: 0.024261
+accuracy: 0.982279
+ -- 090 / 100 --
+mean loss: 0.077471
+mean regloss: 0.028531
+accuracy: 0.982514
+ -- 100 / 100 --
+mean loss: 0.085080
+mean regloss: 0.031268
+accuracy: 0.982765
+**** EPOCH 026 ****
+2021-08-17 07:40:34.094214
+ -- 010 / 100 --
+mean loss: 0.006691
+mean regloss: 0.001320
+accuracy: 0.983271
+ -- 020 / 100 --
+mean loss: 0.016417
+mean regloss: 0.006190
+accuracy: 0.983792
+ -- 030 / 100 --
+mean loss: 0.022682
+mean regloss: 0.007141
+accuracy: 0.983931
+ -- 040 / 100 --
+mean loss: 0.030555
+mean regloss: 0.009500
+accuracy: 0.983755
+ -- 050 / 100 --
+mean loss: 0.039362
+mean regloss: 0.013316
+accuracy: 0.983829
+ -- 060 / 100 --
+mean loss: 0.048016
+mean regloss: 0.016797
+accuracy: 0.983861
+ -- 070 / 100 --
+mean loss: 0.055011
+mean regloss: 0.018616
+accuracy: 0.983946
+ -- 080 / 100 --
+mean loss: 0.063835
+mean regloss: 0.022533
+accuracy: 0.984039
+ -- 090 / 100 --
+mean loss: 0.073599
+mean regloss: 0.027389
+accuracy: 0.984062
+ -- 100 / 100 --
+mean loss: 0.083067
+mean regloss: 0.031968
+accuracy: 0.984085
+**** EPOCH 027 ****
+2021-08-17 07:40:35.659883
+ -- 010 / 100 --
+mean loss: 0.006088
+mean regloss: 0.000744
+accuracy: 0.984500
+ -- 020 / 100 --
+mean loss: 0.016231
+mean regloss: 0.005784
+accuracy: 0.983979
+ -- 030 / 100 --
+mean loss: 0.024254
+mean regloss: 0.008720
+accuracy: 0.984049
+ -- 040 / 100 --
+mean loss: 0.031501
+mean regloss: 0.010515
+accuracy: 0.983776
+ -- 050 / 100 --
+mean loss: 0.040269
+mean regloss: 0.014472
+accuracy: 0.983792
+ -- 060 / 100 --
+mean loss: 0.047962
+mean regloss: 0.016892
+accuracy: 0.983809
+ -- 070 / 100 --
+mean loss: 0.056446
+mean regloss: 0.020318
+accuracy: 0.983827
+ -- 080 / 100 --
+mean loss: 0.064940
+mean regloss: 0.023479
+accuracy: 0.983643
+ -- 090 / 100 --
+mean loss: 0.072009
+mean regloss: 0.025219
+accuracy: 0.983604
+ -- 100 / 100 --
+mean loss: 0.079625
+mean regloss: 0.027062
+accuracy: 0.983352
+**** EPOCH 028 ****
+2021-08-17 07:40:37.227106
+ -- 010 / 100 --
+mean loss: 0.008052
+mean regloss: 0.002775
+accuracy: 0.983062
+ -- 020 / 100 --
+mean loss: 0.018402
+mean regloss: 0.008430
+accuracy: 0.983437
+ -- 030 / 100 --
+mean loss: 0.026116
+mean regloss: 0.010577
+accuracy: 0.982764
+ -- 040 / 100 --
+mean loss: 0.034650
+mean regloss: 0.013806
+accuracy: 0.982604
+ -- 050 / 100 --
+mean loss: 0.042485
+mean regloss: 0.016358
+accuracy: 0.982817
+ -- 060 / 100 --
+mean loss: 0.050223
+mean regloss: 0.018953
+accuracy: 0.983014
+ -- 070 / 100 --
+mean loss: 0.058898
+mean regloss: 0.022687
+accuracy: 0.983086
+ -- 080 / 100 --
+mean loss: 0.067400
+mean regloss: 0.026241
+accuracy: 0.983234
+ -- 090 / 100 --
+mean loss: 0.074142
+mean regloss: 0.027435
+accuracy: 0.983155
+ -- 100 / 100 --
+mean loss: 0.084441
+mean regloss: 0.032765
+accuracy: 0.983215
+**** EPOCH 029 ****
+2021-08-17 07:40:38.821613
+ -- 010 / 100 --
+mean loss: 0.006804
+mean regloss: 0.001376
+accuracy: 0.983521
+ -- 020 / 100 --
+mean loss: 0.016164
+mean regloss: 0.005760
+accuracy: 0.983760
+ -- 030 / 100 --
+mean loss: 0.022593
+mean regloss: 0.006647
+accuracy: 0.983417
+ -- 040 / 100 --
+mean loss: 0.033416
+mean regloss: 0.012416
+accuracy: 0.983250
+ -- 050 / 100 --
+mean loss: 0.039886
+mean regloss: 0.013733
+accuracy: 0.983533
+ -- 060 / 100 --
+mean loss: 0.049160
+mean regloss: 0.018183
+accuracy: 0.983653
+ -- 070 / 100 --
+mean loss: 0.055547
+mean regloss: 0.019194
+accuracy: 0.983625
+ -- 080 / 100 --
+mean loss: 0.062301
+mean regloss: 0.020710
+accuracy: 0.983677
+ -- 090 / 100 --
+mean loss: 0.073200
+mean regloss: 0.026765
+accuracy: 0.983630
+ -- 100 / 100 --
+mean loss: 0.081171
+mean regloss: 0.029722
+accuracy: 0.983683
+**** EPOCH 030 ****
+2021-08-17 07:40:40.397305
+ -- 010 / 100 --
+mean loss: 0.006378
+mean regloss: 0.001435
+accuracy: 0.984938
+ -- 020 / 100 --
+mean loss: 0.013731
+mean regloss: 0.003884
+accuracy: 0.984792
+ -- 030 / 100 --
+mean loss: 0.021950
+mean regloss: 0.007006
+accuracy: 0.984431
+ -- 040 / 100 --
+mean loss: 0.030654
+mean regloss: 0.011130
+accuracy: 0.984729
+ -- 050 / 100 --
+mean loss: 0.038537
+mean regloss: 0.014015
+accuracy: 0.984746
+ -- 060 / 100 --
+mean loss: 0.045356
+mean regloss: 0.015639
+accuracy: 0.984556
+ -- 070 / 100 --
+mean loss: 0.054228
+mean regloss: 0.019744
+accuracy: 0.984557
+ -- 080 / 100 --
+mean loss: 0.062019
+mean regloss: 0.022490
+accuracy: 0.984479
+ -- 090 / 100 --
+mean loss: 0.069322
+mean regloss: 0.024485
+accuracy: 0.984444
+ -- 100 / 100 --
+mean loss: 0.078377
+mean regloss: 0.028559
+accuracy: 0.984431
+**** EPOCH 031 ****
+2021-08-17 07:40:41.947920
+ -- 010 / 100 --
+mean loss: 0.007899
+mean regloss: 0.002794
+accuracy: 0.984583
+ -- 020 / 100 --
+mean loss: 0.013961
+mean regloss: 0.003541
+accuracy: 0.984115
+ -- 030 / 100 --
+mean loss: 0.020181
+mean regloss: 0.004652
+accuracy: 0.984083
+ -- 040 / 100 --
+mean loss: 0.028955
+mean regloss: 0.008754
+accuracy: 0.984182
+ -- 050 / 100 --
+mean loss: 0.037301
+mean regloss: 0.011131
+accuracy: 0.983367
+ -- 060 / 100 --
+mean loss: 0.043933
+mean regloss: 0.012456
+accuracy: 0.983351
+ -- 070 / 100 --
+mean loss: 0.052415
+mean regloss: 0.016313
+accuracy: 0.983649
+ -- 080 / 100 --
+mean loss: 0.061255
+mean regloss: 0.020228
+accuracy: 0.983690
+ -- 090 / 100 --
+mean loss: 0.069251
+mean regloss: 0.023276
+accuracy: 0.983720
+ -- 100 / 100 --
+mean loss: 0.079121
+mean regloss: 0.028384
+accuracy: 0.983779
+**** EPOCH 032 ****
+2021-08-17 07:40:43.497359
+ -- 010 / 100 --
+mean loss: 0.008099
+mean regloss: 0.003256
+accuracy: 0.985104
+ -- 020 / 100 --
+mean loss: 0.014632
+mean regloss: 0.004791
+accuracy: 0.984781
+ -- 030 / 100 --
+mean loss: 0.023270
+mean regloss: 0.008261
+accuracy: 0.984271
+ -- 040 / 100 --
+mean loss: 0.030222
+mean regloss: 0.010181
+accuracy: 0.984307
+ -- 050 / 100 --
+mean loss: 0.036163
+mean regloss: 0.010805
+accuracy: 0.984163
+ -- 060 / 100 --
+mean loss: 0.043404
+mean regloss: 0.012748
+accuracy: 0.983944
+ -- 070 / 100 --
+mean loss: 0.054469
+mean regloss: 0.018938
+accuracy: 0.983881
+ -- 080 / 100 --
+mean loss: 0.061028
+mean regloss: 0.019958
+accuracy: 0.983664
+ -- 090 / 100 --
+mean loss: 0.069029
+mean regloss: 0.023142
+accuracy: 0.983759
+ -- 100 / 100 --
+mean loss: 0.077047
+mean regloss: 0.026663
+accuracy: 0.983973
+**** EPOCH 033 ****
+2021-08-17 07:40:45.051790
+ -- 010 / 100 --
+mean loss: 0.005498
+mean regloss: 0.000486
+accuracy: 0.984917
+ -- 020 / 100 --
+mean loss: 0.011928
+mean regloss: 0.001409
+accuracy: 0.983781
+ -- 030 / 100 --
+mean loss: 0.022285
+mean regloss: 0.005792
+accuracy: 0.982208
+ -- 040 / 100 --
+mean loss: 0.031553
+mean regloss: 0.009131
+accuracy: 0.981531
+ -- 050 / 100 --
+mean loss: 0.040483
+mean regloss: 0.011954
+accuracy: 0.980896
+ -- 060 / 100 --
+mean loss: 0.047883
+mean regloss: 0.013913
+accuracy: 0.981080
+ -- 070 / 100 --
+mean loss: 0.056372
+mean regloss: 0.017054
+accuracy: 0.981220
+ -- 080 / 100 --
+mean loss: 0.064576
+mean regloss: 0.019766
+accuracy: 0.981318
+ -- 090 / 100 --
+mean loss: 0.071374
+mean regloss: 0.021666
+accuracy: 0.981678
+ -- 100 / 100 --
+mean loss: 0.079679
+mean regloss: 0.025188
+accuracy: 0.981971
+**** EPOCH 034 ****
+2021-08-17 07:40:46.594632
+ -- 010 / 100 --
+mean loss: 0.006888
+mean regloss: 0.001400
+accuracy: 0.981979
+ -- 020 / 100 --
+mean loss: 0.016687
+mean regloss: 0.006287
+accuracy: 0.982531
+ -- 030 / 100 --
+mean loss: 0.023983
+mean regloss: 0.008322
+accuracy: 0.982479
+ -- 040 / 100 --
+mean loss: 0.029839
+mean regloss: 0.009070
+accuracy: 0.982875
+ -- 050 / 100 --
+mean loss: 0.038200
+mean regloss: 0.012190
+accuracy: 0.982854
+ -- 060 / 100 --
+mean loss: 0.046108
+mean regloss: 0.014299
+accuracy: 0.982399
+ -- 070 / 100 --
+mean loss: 0.055229
+mean regloss: 0.018241
+accuracy: 0.982435
+ -- 080 / 100 --
+mean loss: 0.062095
+mean regloss: 0.020269
+accuracy: 0.982724
+ -- 090 / 100 --
+mean loss: 0.069422
+mean regloss: 0.022513
+accuracy: 0.982838
+ -- 100 / 100 --
+mean loss: 0.078165
+mean regloss: 0.026195
+accuracy: 0.982885
+**** EPOCH 035 ****
+2021-08-17 07:40:48.146749
+ -- 010 / 100 --
+mean loss: 0.006409
+mean regloss: 0.000542
+accuracy: 0.980688
+ -- 020 / 100 --
+mean loss: 0.015889
+mean regloss: 0.004542
+accuracy: 0.980563
+ -- 030 / 100 --
+mean loss: 0.023154
+mean regloss: 0.006150
+accuracy: 0.980826
+ -- 040 / 100 --
+mean loss: 0.033407
+mean regloss: 0.011000
+accuracy: 0.980911
+ -- 050 / 100 --
+mean loss: 0.043865
+mean regloss: 0.015181
+accuracy: 0.980254
+ -- 060 / 100 --
+mean loss: 0.050565
+mean regloss: 0.016210
+accuracy: 0.980524
+ -- 070 / 100 --
+mean loss: 0.057295
+mean regloss: 0.017922
+accuracy: 0.981045
+ -- 080 / 100 --
+mean loss: 0.065461
+mean regloss: 0.021091
+accuracy: 0.981339
+ -- 090 / 100 --
+mean loss: 0.073395
+mean regloss: 0.023163
+accuracy: 0.981201
+ -- 100 / 100 --
+mean loss: 0.082680
+mean regloss: 0.027688
+accuracy: 0.981517
+**** EPOCH 036 ****
+2021-08-17 07:40:49.698891
+ -- 010 / 100 --
+mean loss: 0.008906
+mean regloss: 0.004006
+accuracy: 0.984187
+ -- 020 / 100 --
+mean loss: 0.016037
+mean regloss: 0.006438
+accuracy: 0.984396
+ -- 030 / 100 --
+mean loss: 0.023821
+mean regloss: 0.009376
+accuracy: 0.984424
+ -- 040 / 100 --
+mean loss: 0.031654
+mean regloss: 0.012604
+accuracy: 0.984609
+ -- 050 / 100 --
+mean loss: 0.041863
+mean regloss: 0.018406
+accuracy: 0.984725
+ -- 060 / 100 --
+mean loss: 0.049870
+mean regloss: 0.021494
+accuracy: 0.984556
+ -- 070 / 100 --
+mean loss: 0.056224
+mean regloss: 0.022594
+accuracy: 0.984429
+ -- 080 / 100 --
+mean loss: 0.062111
+mean regloss: 0.023575
+accuracy: 0.984536
+ -- 090 / 100 --
+mean loss: 0.068531
+mean regloss: 0.025113
+accuracy: 0.984581
+ -- 100 / 100 --
+mean loss: 0.074671
+mean regloss: 0.026551
+accuracy: 0.984692
+**** EPOCH 037 ****
+2021-08-17 07:40:51.251456
+ -- 010 / 100 --
+mean loss: 0.008942
+mean regloss: 0.003908
+accuracy: 0.983500
+ -- 020 / 100 --
+mean loss: 0.016825
+mean regloss: 0.006903
+accuracy: 0.984000
+ -- 030 / 100 --
+mean loss: 0.022530
+mean regloss: 0.007554
+accuracy: 0.984125
+ -- 040 / 100 --
+mean loss: 0.031145
+mean regloss: 0.010921
+accuracy: 0.983708
+ -- 050 / 100 --
+mean loss: 0.038412
+mean regloss: 0.013336
+accuracy: 0.983867
+ -- 060 / 100 --
+mean loss: 0.045565
+mean regloss: 0.015555
+accuracy: 0.983872
+ -- 070 / 100 --
+mean loss: 0.053789
+mean regloss: 0.019100
+accuracy: 0.983979
+ -- 080 / 100 --
+mean loss: 0.061527
+mean regloss: 0.022054
+accuracy: 0.984070
+ -- 090 / 100 --
+mean loss: 0.068710
+mean regloss: 0.024402
+accuracy: 0.984169
+ -- 100 / 100 --
+mean loss: 0.075391
+mean regloss: 0.025896
+accuracy: 0.984071
+**** EPOCH 038 ****
+2021-08-17 07:40:52.806405
+ -- 010 / 100 --
+mean loss: 0.006289
+mean regloss: 0.001596
+accuracy: 0.986042
+ -- 020 / 100 --
+mean loss: 0.011629
+mean regloss: 0.001996
+accuracy: 0.985510
+ -- 030 / 100 --
+mean loss: 0.017338
+mean regloss: 0.002773
+accuracy: 0.985556
+ -- 040 / 100 --
+mean loss: 0.023937
+mean regloss: 0.004562
+accuracy: 0.985344
+ -- 050 / 100 --
+mean loss: 0.030559
+mean regloss: 0.005943
+accuracy: 0.984958
+ -- 060 / 100 --
+mean loss: 0.038840
+mean regloss: 0.009368
+accuracy: 0.984924
+ -- 070 / 100 --
+mean loss: 0.044889
+mean regloss: 0.010696
+accuracy: 0.985000
+ -- 080 / 100 --
+mean loss: 0.053641
+mean regloss: 0.014930
+accuracy: 0.985008
+ -- 090 / 100 --
+mean loss: 0.059344
+mean regloss: 0.015524
+accuracy: 0.984972
+ -- 100 / 100 --
+mean loss: 0.069920
+mean regloss: 0.021526
+accuracy: 0.984875
+**** EPOCH 039 ****
+2021-08-17 07:40:54.352248
+ -- 010 / 100 --
+mean loss: 0.007909
+mean regloss: 0.003415
+accuracy: 0.985625
+ -- 020 / 100 --
+mean loss: 0.013912
+mean regloss: 0.004342
+accuracy: 0.985042
+ -- 030 / 100 --
+mean loss: 0.020069
+mean regloss: 0.005841
+accuracy: 0.985403
+ -- 040 / 100 --
+mean loss: 0.026371
+mean regloss: 0.007419
+accuracy: 0.985359
+ -- 050 / 100 --
+mean loss: 0.033401
+mean regloss: 0.009584
+accuracy: 0.985163
+ -- 060 / 100 --
+mean loss: 0.040174
+mean regloss: 0.011544
+accuracy: 0.985038
+ -- 070 / 100 --
+mean loss: 0.047272
+mean regloss: 0.014014
+accuracy: 0.985128
+ -- 080 / 100 --
+mean loss: 0.054595
+mean regloss: 0.015652
+accuracy: 0.984779
+ -- 090 / 100 --
+mean loss: 0.063103
+mean regloss: 0.019268
+accuracy: 0.984630
+ -- 100 / 100 --
+mean loss: 0.070083
+mean regloss: 0.021588
+accuracy: 0.984625
+**** EPOCH 040 ****
+2021-08-17 07:40:55.945682
+ -- 010 / 100 --
+mean loss: 0.005952
+mean regloss: 0.000951
+accuracy: 0.984521
+ -- 020 / 100 --
+mean loss: 0.012202
+mean regloss: 0.002566
+accuracy: 0.985115
+ -- 030 / 100 --
+mean loss: 0.020391
+mean regloss: 0.005985
+accuracy: 0.984847
+ -- 040 / 100 --
+mean loss: 0.028456
+mean regloss: 0.009162
+accuracy: 0.984724
+ -- 050 / 100 --
+mean loss: 0.037656
+mean regloss: 0.013152
+accuracy: 0.984158
+ -- 060 / 100 --
+mean loss: 0.045291
+mean regloss: 0.015410
+accuracy: 0.983892
+ -- 070 / 100 --
+mean loss: 0.051567
+mean regloss: 0.016333
+accuracy: 0.983810
+ -- 080 / 100 --
+mean loss: 0.058159
+mean regloss: 0.018201
+accuracy: 0.983971
+ -- 090 / 100 --
+mean loss: 0.064070
+mean regloss: 0.019101
+accuracy: 0.983977
+ -- 100 / 100 --
+mean loss: 0.071003
+mean regloss: 0.021089
+accuracy: 0.983933
+**** EPOCH 041 ****
+2021-08-17 07:40:57.530037
+ -- 010 / 100 --
+mean loss: 0.006697
+mean regloss: 0.001567
+accuracy: 0.983354
+ -- 020 / 100 --
+mean loss: 0.012187
+mean regloss: 0.002279
+accuracy: 0.984396
+ -- 030 / 100 --
+mean loss: 0.019920
+mean regloss: 0.005013
+accuracy: 0.984090
+ -- 040 / 100 --
+mean loss: 0.026390
+mean regloss: 0.006219
+accuracy: 0.983714
+ -- 050 / 100 --
+mean loss: 0.034402
+mean regloss: 0.008968
+accuracy: 0.983333
+ -- 060 / 100 --
+mean loss: 0.041945
+mean regloss: 0.011457
+accuracy: 0.983354
+ -- 070 / 100 --
+mean loss: 0.049498
+mean regloss: 0.013653
+accuracy: 0.983125
+ -- 080 / 100 --
+mean loss: 0.056703
+mean regloss: 0.015472
+accuracy: 0.983052
+ -- 090 / 100 --
+mean loss: 0.064737
+mean regloss: 0.018394
+accuracy: 0.983125
+ -- 100 / 100 --
+mean loss: 0.071046
+mean regloss: 0.019263
+accuracy: 0.983071
+**** EPOCH 042 ****
+2021-08-17 07:40:59.095475
+ -- 010 / 100 --
+mean loss: 0.006646
+mean regloss: 0.001666
+accuracy: 0.984500
+ -- 020 / 100 --
+mean loss: 0.013251
+mean regloss: 0.003223
+accuracy: 0.984354
+ -- 030 / 100 --
+mean loss: 0.020587
+mean regloss: 0.005644
+accuracy: 0.984118
+ -- 040 / 100 --
+mean loss: 0.028589
+mean regloss: 0.009077
+accuracy: 0.984260
+ -- 050 / 100 --
+mean loss: 0.034956
+mean regloss: 0.010611
+accuracy: 0.984287
+ -- 060 / 100 --
+mean loss: 0.042007
+mean regloss: 0.012374
+accuracy: 0.983969
+ -- 070 / 100 --
+mean loss: 0.048376
+mean regloss: 0.013369
+accuracy: 0.983860
+ -- 080 / 100 --
+mean loss: 0.055456
+mean regloss: 0.015069
+accuracy: 0.983625
+ -- 090 / 100 --
+mean loss: 0.061868
+mean regloss: 0.016315
+accuracy: 0.983535
+ -- 100 / 100 --
+mean loss: 0.069427
+mean regloss: 0.018983
+accuracy: 0.983652
+**** EPOCH 043 ****
+2021-08-17 07:41:00.688814
+ -- 010 / 100 --
+mean loss: 0.006537
+mean regloss: 0.001832
+accuracy: 0.984833
+ -- 020 / 100 --
+mean loss: 0.013195
+mean regloss: 0.003504
+accuracy: 0.984656
+ -- 030 / 100 --
+mean loss: 0.021852
+mean regloss: 0.007705
+accuracy: 0.984868
+ -- 040 / 100 --
+mean loss: 0.028464
+mean regloss: 0.009493
+accuracy: 0.984901
+ -- 050 / 100 --
+mean loss: 0.035157
+mean regloss: 0.011043
+accuracy: 0.984738
+ -- 060 / 100 --
+mean loss: 0.041402
+mean regloss: 0.011946
+accuracy: 0.984469
+ -- 070 / 100 --
+mean loss: 0.049212
+mean regloss: 0.015116
+accuracy: 0.984446
+ -- 080 / 100 --
+mean loss: 0.055967
+mean regloss: 0.016738
+accuracy: 0.984247
+ -- 090 / 100 --
+mean loss: 0.061863
+mean regloss: 0.017716
+accuracy: 0.984299
+ -- 100 / 100 --
+mean loss: 0.069243
+mean regloss: 0.019863
+accuracy: 0.984158
+**** EPOCH 044 ****
+2021-08-17 07:41:02.266811
+ -- 010 / 100 --
+mean loss: 0.006351
+mean regloss: 0.001435
+accuracy: 0.984458
+ -- 020 / 100 --
+mean loss: 0.011875
+mean regloss: 0.002046
+accuracy: 0.984688
+ -- 030 / 100 --
+mean loss: 0.018873
+mean regloss: 0.004421
+accuracy: 0.984979
+ -- 040 / 100 --
+mean loss: 0.024700
+mean regloss: 0.005040
+accuracy: 0.984583
+ -- 050 / 100 --
+mean loss: 0.030702
+mean regloss: 0.005944
+accuracy: 0.984454
+ -- 060 / 100 --
+mean loss: 0.038017
+mean regloss: 0.008349
+accuracy: 0.984330
+ -- 070 / 100 --
+mean loss: 0.044330
+mean regloss: 0.009757
+accuracy: 0.984313
+ -- 080 / 100 --
+mean loss: 0.051133
+mean regloss: 0.011849
+accuracy: 0.984417
+ -- 090 / 100 --
+mean loss: 0.059501
+mean regloss: 0.015619
+accuracy: 0.984447
+ -- 100 / 100 --
+mean loss: 0.065661
+mean regloss: 0.016880
+accuracy: 0.984427
+**** EPOCH 045 ****
+2021-08-17 07:41:03.824524
+ -- 010 / 100 --
+mean loss: 0.006315
+mean regloss: 0.001435
+accuracy: 0.984979
+ -- 020 / 100 --
+mean loss: 0.014129
+mean regloss: 0.004448
+accuracy: 0.984583
+ -- 030 / 100 --
+mean loss: 0.020060
+mean regloss: 0.005038
+accuracy: 0.983924
+ -- 040 / 100 --
+mean loss: 0.026222
+mean regloss: 0.006128
+accuracy: 0.983984
+ -- 050 / 100 --
+mean loss: 0.032959
+mean regloss: 0.008077
+accuracy: 0.984200
+ -- 060 / 100 --
+mean loss: 0.038485
+mean regloss: 0.009109
+accuracy: 0.984410
+ -- 070 / 100 --
+mean loss: 0.046287
+mean regloss: 0.012478
+accuracy: 0.984521
+ -- 080 / 100 --
+mean loss: 0.052162
+mean regloss: 0.013459
+accuracy: 0.984542
+ -- 090 / 100 --
+mean loss: 0.058893
+mean regloss: 0.014993
+accuracy: 0.984417
+ -- 100 / 100 --
+mean loss: 0.064814
+mean regloss: 0.015825
+accuracy: 0.984383
+**** EPOCH 046 ****
+2021-08-17 07:41:05.389634
+ -- 010 / 100 --
+mean loss: 0.005171
+mean regloss: 0.000371
+accuracy: 0.985646
+ -- 020 / 100 --
+mean loss: 0.013205
+mean regloss: 0.003703
+accuracy: 0.985240
+ -- 030 / 100 --
+mean loss: 0.019930
+mean regloss: 0.005528
+accuracy: 0.984653
+ -- 040 / 100 --
+mean loss: 0.025950
+mean regloss: 0.006429
+accuracy: 0.984349
+ -- 050 / 100 --
+mean loss: 0.033905
+mean regloss: 0.008814
+accuracy: 0.983792
+ -- 060 / 100 --
+mean loss: 0.040908
+mean regloss: 0.009599
+accuracy: 0.983135
+ -- 070 / 100 --
+mean loss: 0.048206
+mean regloss: 0.011005
+accuracy: 0.982673
+ -- 080 / 100 --
+mean loss: 0.057708
+mean regloss: 0.015164
+accuracy: 0.982474
+ -- 090 / 100 --
+mean loss: 0.065537
+mean regloss: 0.016633
+accuracy: 0.982002
+ -- 100 / 100 --
+mean loss: 0.074577
+mean regloss: 0.019386
+accuracy: 0.981548
+**** EPOCH 047 ****
+2021-08-17 07:41:06.934269
+ -- 010 / 100 --
+mean loss: 0.006554
+mean regloss: 0.001457
+accuracy: 0.983812
+ -- 020 / 100 --
+mean loss: 0.012489
+mean regloss: 0.002495
+accuracy: 0.984490
+ -- 030 / 100 --
+mean loss: 0.018162
+mean regloss: 0.003546
+accuracy: 0.984764
+ -- 040 / 100 --
+mean loss: 0.023739
+mean regloss: 0.004172
+accuracy: 0.984828
+ -- 050 / 100 --
+mean loss: 0.030624
+mean regloss: 0.006279
+accuracy: 0.984771
+ -- 060 / 100 --
+mean loss: 0.038663
+mean regloss: 0.009310
+accuracy: 0.984483
+ -- 070 / 100 --
+mean loss: 0.045687
+mean regloss: 0.010881
+accuracy: 0.984089
+ -- 080 / 100 --
+mean loss: 0.052801
+mean regloss: 0.012259
+accuracy: 0.983628
+ -- 090 / 100 --
+mean loss: 0.058556
+mean regloss: 0.012935
+accuracy: 0.983604
+ -- 100 / 100 --
+mean loss: 0.065390
+mean regloss: 0.014602
+accuracy: 0.983544
+**** EPOCH 048 ****
+2021-08-17 07:41:08.490239
+ -- 010 / 100 --
+mean loss: 0.006595
+mean regloss: 0.000650
+accuracy: 0.980187
+ -- 020 / 100 --
+mean loss: 0.013423
+mean regloss: 0.002405
+accuracy: 0.981729
+ -- 030 / 100 --
+mean loss: 0.023410
+mean regloss: 0.007791
+accuracy: 0.982563
+ -- 040 / 100 --
+mean loss: 0.031645
+mean regloss: 0.010964
+accuracy: 0.982708
+ -- 050 / 100 --
+mean loss: 0.037837
+mean regloss: 0.012550
+accuracy: 0.983317
+ -- 060 / 100 --
+mean loss: 0.044318
+mean regloss: 0.013923
+accuracy: 0.983285
+ -- 070 / 100 --
+mean loss: 0.050110
+mean regloss: 0.014640
+accuracy: 0.983324
+ -- 080 / 100 --
+mean loss: 0.055140
+mean regloss: 0.014905
+accuracy: 0.983536
+ -- 090 / 100 --
+mean loss: 0.061132
+mean regloss: 0.015618
+accuracy: 0.983551
+ -- 100 / 100 --
+mean loss: 0.069017
+mean regloss: 0.018602
+accuracy: 0.983567
+**** EPOCH 049 ****
+2021-08-17 07:41:10.079836
+ -- 010 / 100 --
+mean loss: 0.008575
+mean regloss: 0.004060
+accuracy: 0.984938
+ -- 020 / 100 --
+mean loss: 0.016982
+mean regloss: 0.008173
+accuracy: 0.985146
+ -- 030 / 100 --
+mean loss: 0.024963
+mean regloss: 0.010767
+accuracy: 0.984187
+ -- 040 / 100 --
+mean loss: 0.031683
+mean regloss: 0.012845
+accuracy: 0.984443
+ -- 050 / 100 --
+mean loss: 0.038315
+mean regloss: 0.014066
+accuracy: 0.984125
+ -- 060 / 100 --
+mean loss: 0.044485
+mean regloss: 0.015206
+accuracy: 0.984097
+ -- 070 / 100 --
+mean loss: 0.051312
+mean regloss: 0.016870
+accuracy: 0.984006
+ -- 080 / 100 --
+mean loss: 0.056590
+mean regloss: 0.017381
+accuracy: 0.984143
+ -- 090 / 100 --
+mean loss: 0.062884
+mean regloss: 0.018896
+accuracy: 0.984187
+ -- 100 / 100 --
+mean loss: 0.068431
+mean regloss: 0.019723
+accuracy: 0.984337
+**** EPOCH 050 ****
+2021-08-17 07:41:11.623056
+ -- 010 / 100 --
+mean loss: 0.006034
+mean regloss: 0.001356
+accuracy: 0.985458
+ -- 020 / 100 --
+mean loss: 0.011427
+mean regloss: 0.002061
+accuracy: 0.985458
+ -- 030 / 100 --
+mean loss: 0.018441
+mean regloss: 0.004320
+accuracy: 0.985201
+ -- 040 / 100 --
+mean loss: 0.023825
+mean regloss: 0.004914
+accuracy: 0.985187
+ -- 050 / 100 --
+mean loss: 0.029586
+mean regloss: 0.005976
+accuracy: 0.985217
+ -- 060 / 100 --
+mean loss: 0.036520
+mean regloss: 0.008337
+accuracy: 0.985295
+ -- 070 / 100 --
+mean loss: 0.042719
+mean regloss: 0.009668
+accuracy: 0.985167
+ -- 080 / 100 --
+mean loss: 0.049439
+mean regloss: 0.011706
+accuracy: 0.985164
+ -- 090 / 100 --
+mean loss: 0.056365
+mean regloss: 0.013790
+accuracy: 0.985100
+ -- 100 / 100 --
+mean loss: 0.062696
+mean regloss: 0.014905
+accuracy: 0.984892
+Model saved in file: log/model.ckpt
+**** EPOCH 051 ****
+2021-08-17 07:41:13.292549
+ -- 010 / 100 --
+mean loss: 0.006116
+mean regloss: 0.000998
+accuracy: 0.983521
+ -- 020 / 100 --
+mean loss: 0.011502
+mean regloss: 0.001416
+accuracy: 0.984031
+ -- 030 / 100 --
+mean loss: 0.018546
+mean regloss: 0.002775
+accuracy: 0.983174
+ -- 040 / 100 --
+mean loss: 0.024896
+mean regloss: 0.003600
+accuracy: 0.982771
+ -- 050 / 100 --
+mean loss: 0.031157
+mean regloss: 0.004234
+accuracy: 0.982487
+ -- 060 / 100 --
+mean loss: 0.037714
+mean regloss: 0.005880
+accuracy: 0.982691
+ -- 070 / 100 --
+mean loss: 0.046718
+mean regloss: 0.009736
+accuracy: 0.982625
+ -- 080 / 100 --
+mean loss: 0.053151
+mean regloss: 0.011007
+accuracy: 0.982781
+ -- 090 / 100 --
+mean loss: 0.058810
+mean regloss: 0.011761
+accuracy: 0.982986
+ -- 100 / 100 --
+mean loss: 0.065352
+mean regloss: 0.013467
+accuracy: 0.983131
+**** EPOCH 052 ****
+2021-08-17 07:41:14.845957
+ -- 010 / 100 --
+mean loss: 0.005550
+mean regloss: 0.000774
+accuracy: 0.985583
+ -- 020 / 100 --
+mean loss: 0.012668
+mean regloss: 0.003050
+accuracy: 0.984812
+ -- 030 / 100 --
+mean loss: 0.019100
+mean regloss: 0.004210
+accuracy: 0.984215
+ -- 040 / 100 --
+mean loss: 0.025279
+mean regloss: 0.005603
+accuracy: 0.984313
+ -- 050 / 100 --
+mean loss: 0.032214
+mean regloss: 0.007847
+accuracy: 0.984496
+ -- 060 / 100 --
+mean loss: 0.038057
+mean regloss: 0.008871
+accuracy: 0.984469
+ -- 070 / 100 --
+mean loss: 0.044757
+mean regloss: 0.010888
+accuracy: 0.984565
+ -- 080 / 100 --
+mean loss: 0.051129
+mean regloss: 0.012070
+accuracy: 0.984401
+ -- 090 / 100 --
+mean loss: 0.058311
+mean regloss: 0.014546
+accuracy: 0.984419
+ -- 100 / 100 --
+mean loss: 0.063618
+mean regloss: 0.015045
+accuracy: 0.984496
+**** EPOCH 053 ****
+2021-08-17 07:41:16.432237
+ -- 010 / 100 --
+mean loss: 0.006281
+mean regloss: 0.001531
+accuracy: 0.984750
+ -- 020 / 100 --
+mean loss: 0.014514
+mean regloss: 0.005271
+accuracy: 0.985167
+ -- 030 / 100 --
+mean loss: 0.020094
+mean regloss: 0.005744
+accuracy: 0.984861
+ -- 040 / 100 --
+mean loss: 0.026812
+mean regloss: 0.007856
+accuracy: 0.985036
+ -- 050 / 100 --
+mean loss: 0.032552
+mean regloss: 0.008717
+accuracy: 0.985029
+ -- 060 / 100 --
+mean loss: 0.039096
+mean regloss: 0.010548
+accuracy: 0.985049
+ -- 070 / 100 --
+mean loss: 0.046228
+mean regloss: 0.012526
+accuracy: 0.984667
+ -- 080 / 100 --
+mean loss: 0.051732
+mean regloss: 0.012758
+accuracy: 0.984448
+ -- 090 / 100 --
+mean loss: 0.057165
+mean regloss: 0.013245
+accuracy: 0.984412
+ -- 100 / 100 --
+mean loss: 0.063995
+mean regloss: 0.015446
+accuracy: 0.984492
+**** EPOCH 054 ****
+2021-08-17 07:41:18.010808
+ -- 010 / 100 --
+mean loss: 0.006934
+mean regloss: 0.002144
+accuracy: 0.984333
+ -- 020 / 100 --
+mean loss: 0.012566
+mean regloss: 0.002601
+accuracy: 0.983844
+ -- 030 / 100 --
+mean loss: 0.018927
+mean regloss: 0.003552
+accuracy: 0.983424
+ -- 040 / 100 --
+mean loss: 0.025886
+mean regloss: 0.004687
+accuracy: 0.982443
+ -- 050 / 100 --
+mean loss: 0.032040
+mean regloss: 0.005674
+accuracy: 0.982558
+ -- 060 / 100 --
+mean loss: 0.038010
+mean regloss: 0.006627
+accuracy: 0.982941
+ -- 070 / 100 --
+mean loss: 0.043373
+mean regloss: 0.007162
+accuracy: 0.983250
+ -- 080 / 100 --
+mean loss: 0.049501
+mean regloss: 0.008321
+accuracy: 0.983401
+ -- 090 / 100 --
+mean loss: 0.058872
+mean regloss: 0.013163
+accuracy: 0.983481
+ -- 100 / 100 --
+mean loss: 0.067917
+mean regloss: 0.017775
+accuracy: 0.983602
+**** EPOCH 055 ****
+2021-08-17 07:41:19.578067
+ -- 010 / 100 --
+mean loss: 0.006438
+mean regloss: 0.001674
+accuracy: 0.984229
+ -- 020 / 100 --
+mean loss: 0.012672
+mean regloss: 0.003119
+accuracy: 0.984292
+ -- 030 / 100 --
+mean loss: 0.018392
+mean regloss: 0.004026
+accuracy: 0.984333
+ -- 040 / 100 --
+mean loss: 0.024653
+mean regloss: 0.005174
+accuracy: 0.984292
+ -- 050 / 100 --
+mean loss: 0.030139
+mean regloss: 0.005655
+accuracy: 0.984250
+ -- 060 / 100 --
+mean loss: 0.036713
+mean regloss: 0.006718
+accuracy: 0.983931
+ -- 070 / 100 --
+mean loss: 0.045765
+mean regloss: 0.010244
+accuracy: 0.983408
+ -- 080 / 100 --
+mean loss: 0.051983
+mean regloss: 0.011467
+accuracy: 0.983549
+ -- 090 / 100 --
+mean loss: 0.059428
+mean regloss: 0.014388
+accuracy: 0.983782
+ -- 100 / 100 --
+mean loss: 0.066956
+mean regloss: 0.016616
+accuracy: 0.983656
+**** EPOCH 056 ****
+2021-08-17 07:41:21.120875
+ -- 010 / 100 --
+mean loss: 0.005541
+mean regloss: 0.000299
+accuracy: 0.983667
+ -- 020 / 100 --
+mean loss: 0.012475
+mean regloss: 0.001905
+accuracy: 0.982927
+ -- 030 / 100 --
+mean loss: 0.017723
+mean regloss: 0.002272
+accuracy: 0.983611
+ -- 040 / 100 --
+mean loss: 0.022857
+mean regloss: 0.002532
+accuracy: 0.983880
+ -- 050 / 100 --
+mean loss: 0.031078
+mean regloss: 0.006102
+accuracy: 0.984033
+ -- 060 / 100 --
+mean loss: 0.036297
+mean regloss: 0.006791
+accuracy: 0.984260
+ -- 070 / 100 --
+mean loss: 0.042366
+mean regloss: 0.007985
+accuracy: 0.984318
+ -- 080 / 100 --
+mean loss: 0.049292
+mean regloss: 0.010394
+accuracy: 0.984503
+ -- 090 / 100 --
+mean loss: 0.056056
+mean regloss: 0.012322
+accuracy: 0.984519
+ -- 100 / 100 --
+mean loss: 0.062380
+mean regloss: 0.014259
+accuracy: 0.984646
+**** EPOCH 057 ****
+2021-08-17 07:41:22.682098
+ -- 010 / 100 --
+mean loss: 0.005760
+mean regloss: 0.001192
+accuracy: 0.985833
+ -- 020 / 100 --
+mean loss: 0.011008
+mean regloss: 0.001522
+accuracy: 0.985250
+ -- 030 / 100 --
+mean loss: 0.017419
+mean regloss: 0.002577
+accuracy: 0.984389
+ -- 040 / 100 --
+mean loss: 0.023655
+mean regloss: 0.003675
+accuracy: 0.984130
+ -- 050 / 100 --
+mean loss: 0.029811
+mean regloss: 0.004567
+accuracy: 0.983875
+ -- 060 / 100 --
+mean loss: 0.037190
+mean regloss: 0.007036
+accuracy: 0.983896
+ -- 070 / 100 --
+mean loss: 0.045417
+mean regloss: 0.010712
+accuracy: 0.983967
+ -- 080 / 100 --
+mean loss: 0.051428
+mean regloss: 0.011760
+accuracy: 0.983953
+ -- 090 / 100 --
+mean loss: 0.056979
+mean regloss: 0.012623
+accuracy: 0.984181
+ -- 100 / 100 --
+mean loss: 0.063518
+mean regloss: 0.014386
+accuracy: 0.984240
+**** EPOCH 058 ****
+2021-08-17 07:41:24.279236
+ -- 010 / 100 --
+mean loss: 0.006815
+mean regloss: 0.001878
+accuracy: 0.983938
+ -- 020 / 100 --
+mean loss: 0.012878
+mean regloss: 0.002912
+accuracy: 0.983625
+ -- 030 / 100 --
+mean loss: 0.019435
+mean regloss: 0.004743
+accuracy: 0.983986
+ -- 040 / 100 --
+mean loss: 0.026100
+mean regloss: 0.006829
+accuracy: 0.984224
+ -- 050 / 100 --
+mean loss: 0.031775
+mean regloss: 0.007749
+accuracy: 0.984463
+ -- 060 / 100 --
+mean loss: 0.038166
+mean regloss: 0.009284
+accuracy: 0.984385
+ -- 070 / 100 --
+mean loss: 0.044015
+mean regloss: 0.010182
+accuracy: 0.984393
+ -- 080 / 100 --
+mean loss: 0.051211
+mean regloss: 0.012761
+accuracy: 0.984487
+ -- 090 / 100 --
+mean loss: 0.057055
+mean regloss: 0.013950
+accuracy: 0.984567
+ -- 100 / 100 --
+mean loss: 0.063475
+mean regloss: 0.015225
+accuracy: 0.984419
+**** EPOCH 059 ****
+2021-08-17 07:41:25.845652
+ -- 010 / 100 --
+mean loss: 0.006543
+mean regloss: 0.001611
+accuracy: 0.983875
+ -- 020 / 100 --
+mean loss: 0.012563
+mean regloss: 0.002545
+accuracy: 0.983625
+ -- 030 / 100 --
+mean loss: 0.017881
+mean regloss: 0.002874
+accuracy: 0.983833
+ -- 040 / 100 --
+mean loss: 0.024232
+mean regloss: 0.003928
+accuracy: 0.983563
+ -- 050 / 100 --
+mean loss: 0.030247
+mean regloss: 0.004778
+accuracy: 0.983413
+ -- 060 / 100 --
+mean loss: 0.036409
+mean regloss: 0.005205
+accuracy: 0.983066
+ -- 070 / 100 --
+mean loss: 0.045049
+mean regloss: 0.008264
+accuracy: 0.982708
+ -- 080 / 100 --
+mean loss: 0.051663
+mean regloss: 0.009341
+accuracy: 0.982555
+ -- 090 / 100 --
+mean loss: 0.058640
+mean regloss: 0.011118
+accuracy: 0.982581
+ -- 100 / 100 --
+mean loss: 0.064328
+mean regloss: 0.011502
+accuracy: 0.982619
+**** EPOCH 060 ****
+2021-08-17 07:41:27.395733
+ -- 010 / 100 --
+mean loss: 0.005699
+mean regloss: 0.000848
+accuracy: 0.984375
+ -- 020 / 100 --
+mean loss: 0.010738
+mean regloss: 0.001047
+accuracy: 0.984802
+ -- 030 / 100 --
+mean loss: 0.016177
+mean regloss: 0.001592
+accuracy: 0.984660
+ -- 040 / 100 --
+mean loss: 0.023926
+mean regloss: 0.004704
+accuracy: 0.984693
+ -- 050 / 100 --
+mean loss: 0.029840
+mean regloss: 0.005812
+accuracy: 0.984750
+ -- 060 / 100 --
+mean loss: 0.034839
+mean regloss: 0.006162
+accuracy: 0.985052
+ -- 070 / 100 --
+mean loss: 0.039797
+mean regloss: 0.006496
+accuracy: 0.985164
+ -- 080 / 100 --
+mean loss: 0.045625
+mean regloss: 0.007656
+accuracy: 0.985156
+ -- 090 / 100 --
+mean loss: 0.051122
+mean regloss: 0.008540
+accuracy: 0.985174
+ -- 100 / 100 --
+mean loss: 0.056660
+mean regloss: 0.009345
+accuracy: 0.985194
+**** EPOCH 061 ****
+2021-08-17 07:41:28.933835
+ -- 010 / 100 --
+mean loss: 0.005624
+mean regloss: 0.000922
+accuracy: 0.984667
+ -- 020 / 100 --
+mean loss: 0.010976
+mean regloss: 0.001289
+accuracy: 0.984448
+ -- 030 / 100 --
+mean loss: 0.016219
+mean regloss: 0.001898
+accuracy: 0.984889
+ -- 040 / 100 --
+mean loss: 0.022046
+mean regloss: 0.002782
+accuracy: 0.984615
+ -- 050 / 100 --
+mean loss: 0.032712
+mean regloss: 0.008632
+accuracy: 0.984142
+ -- 060 / 100 --
+mean loss: 0.038980
+mean regloss: 0.009430
+accuracy: 0.983865
+ -- 070 / 100 --
+mean loss: 0.044505
+mean regloss: 0.009779
+accuracy: 0.983836
+ -- 080 / 100 --
+mean loss: 0.050670
+mean regloss: 0.010871
+accuracy: 0.983807
+ -- 090 / 100 --
+mean loss: 0.056329
+mean regloss: 0.011747
+accuracy: 0.983958
+ -- 100 / 100 --
+mean loss: 0.061414
+mean regloss: 0.012145
+accuracy: 0.984098
+**** EPOCH 062 ****
+2021-08-17 07:41:30.520402
+ -- 010 / 100 --
+mean loss: 0.005559
+mean regloss: 0.000382
+accuracy: 0.983688
+ -- 020 / 100 --
+mean loss: 0.011976
+mean regloss: 0.002030
+accuracy: 0.984198
+ -- 030 / 100 --
+mean loss: 0.016910
+mean regloss: 0.002330
+accuracy: 0.984826
+ -- 040 / 100 --
+mean loss: 0.023628
+mean regloss: 0.004693
+accuracy: 0.985141
+ -- 050 / 100 --
+mean loss: 0.030350
+mean regloss: 0.006728
+accuracy: 0.985133
+ -- 060 / 100 --
+mean loss: 0.035478
+mean regloss: 0.007069
+accuracy: 0.985076
+ -- 070 / 100 --
+mean loss: 0.040836
+mean regloss: 0.007510
+accuracy: 0.984923
+ -- 080 / 100 --
+mean loss: 0.047316
+mean regloss: 0.008773
+accuracy: 0.984708
+ -- 090 / 100 --
+mean loss: 0.052474
+mean regloss: 0.009261
+accuracy: 0.984785
+ -- 100 / 100 --
+mean loss: 0.057591
+mean regloss: 0.009458
+accuracy: 0.984783
+**** EPOCH 063 ****
+2021-08-17 07:41:32.090088
+ -- 010 / 100 --
+mean loss: 0.004746
+mean regloss: 0.000202
+accuracy: 0.985854
+ -- 020 / 100 --
+mean loss: 0.009735
+mean regloss: 0.000417
+accuracy: 0.985604
+ -- 030 / 100 --
+mean loss: 0.015704
+mean regloss: 0.001602
+accuracy: 0.985194
+ -- 040 / 100 --
+mean loss: 0.021590
+mean regloss: 0.002623
+accuracy: 0.985005
+ -- 050 / 100 --
+mean loss: 0.028327
+mean regloss: 0.004127
+accuracy: 0.984525
+ -- 060 / 100 --
+mean loss: 0.036112
+mean regloss: 0.006382
+accuracy: 0.984028
+ -- 070 / 100 --
+mean loss: 0.042275
+mean regloss: 0.006568
+accuracy: 0.983580
+ -- 080 / 100 --
+mean loss: 0.050134
+mean regloss: 0.007671
+accuracy: 0.982656
+ -- 090 / 100 --
+mean loss: 0.056659
+mean regloss: 0.008927
+accuracy: 0.982704
+ -- 100 / 100 --
+mean loss: 0.062231
+mean regloss: 0.009603
+accuracy: 0.982842
+**** EPOCH 064 ****
+2021-08-17 07:41:33.646134
+ -- 010 / 100 --
+mean loss: 0.005237
+mean regloss: 0.000323
+accuracy: 0.984958
+ -- 020 / 100 --
+mean loss: 0.011352
+mean regloss: 0.001870
+accuracy: 0.985500
+ -- 030 / 100 --
+mean loss: 0.016263
+mean regloss: 0.002080
+accuracy: 0.985479
+ -- 040 / 100 --
+mean loss: 0.021222
+mean regloss: 0.002352
+accuracy: 0.985552
+ -- 050 / 100 --
+mean loss: 0.027337
+mean regloss: 0.003763
+accuracy: 0.985425
+ -- 060 / 100 --
+mean loss: 0.035165
+mean regloss: 0.007035
+accuracy: 0.985410
+ -- 070 / 100 --
+mean loss: 0.041632
+mean regloss: 0.009138
+accuracy: 0.985420
+ -- 080 / 100 --
+mean loss: 0.046600
+mean regloss: 0.009906
+accuracy: 0.985615
+ -- 090 / 100 --
+mean loss: 0.051783
+mean regloss: 0.010112
+accuracy: 0.985488
+ -- 100 / 100 --
+mean loss: 0.057217
+mean regloss: 0.010813
+accuracy: 0.985427
+**** EPOCH 065 ****
+2021-08-17 07:41:35.214115
+ -- 010 / 100 --
+mean loss: 0.004943
+mean regloss: 0.000321
+accuracy: 0.985354
+ -- 020 / 100 --
+mean loss: 0.010421
+mean regloss: 0.000786
+accuracy: 0.984854
+ -- 030 / 100 --
+mean loss: 0.017244
+mean regloss: 0.002534
+accuracy: 0.984340
+ -- 040 / 100 --
+mean loss: 0.023194
+mean regloss: 0.003570
+accuracy: 0.984161
+ -- 050 / 100 --
+mean loss: 0.028956
+mean regloss: 0.004581
+accuracy: 0.984337
+ -- 060 / 100 --
+mean loss: 0.035044
+mean regloss: 0.006030
+accuracy: 0.984479
+ -- 070 / 100 --
+mean loss: 0.039860
+mean regloss: 0.006274
+accuracy: 0.984649
+ -- 080 / 100 --
+mean loss: 0.045031
+mean regloss: 0.006521
+accuracy: 0.984661
+ -- 090 / 100 --
+mean loss: 0.050649
+mean regloss: 0.007469
+accuracy: 0.984664
+ -- 100 / 100 --
+mean loss: 0.055814
+mean regloss: 0.007986
+accuracy: 0.984729
+**** EPOCH 066 ****
+2021-08-17 07:41:36.760705
+ -- 010 / 100 --
+mean loss: 0.005121
+mean regloss: 0.000354
+accuracy: 0.984792
+ -- 020 / 100 --
+mean loss: 0.010470
+mean regloss: 0.000842
+accuracy: 0.984615
+ -- 030 / 100 --
+mean loss: 0.015836
+mean regloss: 0.001050
+accuracy: 0.984424
+ -- 040 / 100 --
+mean loss: 0.022318
+mean regloss: 0.002497
+accuracy: 0.984182
+ -- 050 / 100 --
+mean loss: 0.027892
+mean regloss: 0.002764
+accuracy: 0.983925
+ -- 060 / 100 --
+mean loss: 0.033911
+mean regloss: 0.003233
+accuracy: 0.983590
+ -- 070 / 100 --
+mean loss: 0.039667
+mean regloss: 0.003516
+accuracy: 0.983363
+ -- 080 / 100 --
+mean loss: 0.046394
+mean regloss: 0.005806
+accuracy: 0.983646
+ -- 090 / 100 --
+mean loss: 0.052668
+mean regloss: 0.006938
+accuracy: 0.983586
+ -- 100 / 100 --
+mean loss: 0.058487
+mean regloss: 0.007716
+accuracy: 0.983600
+**** EPOCH 067 ****
+2021-08-17 07:41:38.336247
+ -- 010 / 100 --
+mean loss: 0.006631
+mean regloss: 0.001761
+accuracy: 0.984167
+ -- 020 / 100 --
+mean loss: 0.012027
+mean regloss: 0.002620
+accuracy: 0.984802
+ -- 030 / 100 --
+mean loss: 0.018119
+mean regloss: 0.003479
+accuracy: 0.984472
+ -- 040 / 100 --
+mean loss: 0.023669
+mean regloss: 0.004194
+accuracy: 0.984547
+ -- 050 / 100 --
+mean loss: 0.030115
+mean regloss: 0.005589
+accuracy: 0.984325
+ -- 060 / 100 --
+mean loss: 0.035768
+mean regloss: 0.006359
+accuracy: 0.984451
+ -- 070 / 100 --
+mean loss: 0.041427
+mean regloss: 0.007197
+accuracy: 0.984470
+ -- 080 / 100 --
+mean loss: 0.047012
+mean regloss: 0.007853
+accuracy: 0.984458
+ -- 090 / 100 --
+mean loss: 0.052506
+mean regloss: 0.008845
+accuracy: 0.984597
+ -- 100 / 100 --
+mean loss: 0.058170
+mean regloss: 0.009596
+accuracy: 0.984525
+**** EPOCH 068 ****
+2021-08-17 07:41:39.895625
+ -- 010 / 100 --
+mean loss: 0.006946
+mean regloss: 0.001769
+accuracy: 0.982812
+ -- 020 / 100 --
+mean loss: 0.012840
+mean regloss: 0.002142
+accuracy: 0.982042
+ -- 030 / 100 --
+mean loss: 0.019273
+mean regloss: 0.002957
+accuracy: 0.981701
+ -- 040 / 100 --
+mean loss: 0.025952
+mean regloss: 0.003559
+accuracy: 0.981057
+ -- 050 / 100 --
+mean loss: 0.032224
+mean regloss: 0.005024
+accuracy: 0.981604
+ -- 060 / 100 --
+mean loss: 0.037928
+mean regloss: 0.006231
+accuracy: 0.982306
+ -- 070 / 100 --
+mean loss: 0.043195
+mean regloss: 0.006861
+accuracy: 0.982753
+ -- 080 / 100 --
+mean loss: 0.049535
+mean regloss: 0.008393
+accuracy: 0.982971
+ -- 090 / 100 --
+mean loss: 0.054484
+mean regloss: 0.008695
+accuracy: 0.983269
+ -- 100 / 100 --
+mean loss: 0.059776
+mean regloss: 0.009083
+accuracy: 0.983346
+**** EPOCH 069 ****
+2021-08-17 07:41:41.473131
+ -- 010 / 100 --
+mean loss: 0.005330
+mean regloss: 0.000323
+accuracy: 0.984333
+ -- 020 / 100 --
+mean loss: 0.010762
+mean regloss: 0.000812
+accuracy: 0.984510
+ -- 030 / 100 --
+mean loss: 0.015639
+mean regloss: 0.001007
+accuracy: 0.984708
+ -- 040 / 100 --
+mean loss: 0.022607
+mean regloss: 0.003065
+accuracy: 0.984359
+ -- 050 / 100 --
+mean loss: 0.028031
+mean regloss: 0.003496
+accuracy: 0.984271
+ -- 060 / 100 --
+mean loss: 0.033147
+mean regloss: 0.003962
+accuracy: 0.984437
+ -- 070 / 100 --
+mean loss: 0.039100
+mean regloss: 0.005644
+accuracy: 0.984699
+ -- 080 / 100 --
+mean loss: 0.045905
+mean regloss: 0.007708
+accuracy: 0.984633
+ -- 090 / 100 --
+mean loss: 0.051359
+mean regloss: 0.008622
+accuracy: 0.984720
+ -- 100 / 100 --
+mean loss: 0.056383
+mean regloss: 0.008917
+accuracy: 0.984812
+**** EPOCH 070 ****
+2021-08-17 07:41:43.043640
+ -- 010 / 100 --
+mean loss: 0.005051
+mean regloss: 0.000327
+accuracy: 0.985375
+ -- 020 / 100 --
+mean loss: 0.010194
+mean regloss: 0.000843
+accuracy: 0.985313
+ -- 030 / 100 --
+mean loss: 0.015001
+mean regloss: 0.001057
+accuracy: 0.985472
+ -- 040 / 100 --
+mean loss: 0.020623
+mean regloss: 0.002383
+accuracy: 0.985750
+ -- 050 / 100 --
+mean loss: 0.025993
+mean regloss: 0.003029
+accuracy: 0.985738
+ -- 060 / 100 --
+mean loss: 0.031385
+mean regloss: 0.003548
+accuracy: 0.985486
+ -- 070 / 100 --
+mean loss: 0.036939
+mean regloss: 0.004606
+accuracy: 0.985524
+ -- 080 / 100 --
+mean loss: 0.042432
+mean regloss: 0.005386
+accuracy: 0.985435
+ -- 090 / 100 --
+mean loss: 0.047912
+mean regloss: 0.006447
+accuracy: 0.985528
+ -- 100 / 100 --
+mean loss: 0.053442
+mean regloss: 0.007421
+accuracy: 0.985504
+**** EPOCH 071 ****
+2021-08-17 07:41:44.593056
+ -- 010 / 100 --
+mean loss: 0.005315
+mean regloss: 0.000744
+accuracy: 0.985458
+ -- 020 / 100 --
+mean loss: 0.010108
+mean regloss: 0.000993
+accuracy: 0.985698
+ -- 030 / 100 --
+mean loss: 0.015278
+mean regloss: 0.001284
+accuracy: 0.985313
+ -- 040 / 100 --
+mean loss: 0.021600
+mean regloss: 0.002770
+accuracy: 0.984948
+ -- 050 / 100 --
+mean loss: 0.027969
+mean regloss: 0.004508
+accuracy: 0.984929
+ -- 060 / 100 --
+mean loss: 0.032694
+mean regloss: 0.004744
+accuracy: 0.985128
+ -- 070 / 100 --
+mean loss: 0.037619
+mean regloss: 0.004958
+accuracy: 0.985095
+ -- 080 / 100 --
+mean loss: 0.043473
+mean regloss: 0.006064
+accuracy: 0.985057
+ -- 090 / 100 --
+mean loss: 0.048713
+mean regloss: 0.006284
+accuracy: 0.984905
+ -- 100 / 100 --
+mean loss: 0.054085
+mean regloss: 0.007003
+accuracy: 0.984946
+**** EPOCH 072 ****
+2021-08-17 07:41:46.194119
+ -- 010 / 100 --
+mean loss: 0.005561
+mean regloss: 0.000410
+accuracy: 0.983458
+ -- 020 / 100 --
+mean loss: 0.011287
+mean regloss: 0.000516
+accuracy: 0.982521
+ -- 030 / 100 --
+mean loss: 0.016509
+mean regloss: 0.000638
+accuracy: 0.983042
+ -- 040 / 100 --
+mean loss: 0.021666
+mean regloss: 0.000983
+accuracy: 0.983510
+ -- 050 / 100 --
+mean loss: 0.029986
+mean regloss: 0.005102
+accuracy: 0.983854
+ -- 060 / 100 --
+mean loss: 0.036095
+mean regloss: 0.006516
+accuracy: 0.983965
+ -- 070 / 100 --
+mean loss: 0.041261
+mean regloss: 0.007138
+accuracy: 0.984158
+ -- 080 / 100 --
+mean loss: 0.046179
+mean regloss: 0.007475
+accuracy: 0.984385
+ -- 090 / 100 --
+mean loss: 0.051336
+mean regloss: 0.007961
+accuracy: 0.984493
+ -- 100 / 100 --
+mean loss: 0.056371
+mean regloss: 0.008604
+accuracy: 0.984613
+**** EPOCH 073 ****
+2021-08-17 07:41:47.748172
+ -- 010 / 100 --
+mean loss: 0.006086
+mean regloss: 0.001133
+accuracy: 0.984042
+ -- 020 / 100 --
+mean loss: 0.011446
+mean regloss: 0.001504
+accuracy: 0.983625
+ -- 030 / 100 --
+mean loss: 0.017905
+mean regloss: 0.002567
+accuracy: 0.982889
+ -- 040 / 100 --
+mean loss: 0.023697
+mean regloss: 0.003426
+accuracy: 0.983146
+ -- 050 / 100 --
+mean loss: 0.029362
+mean regloss: 0.003747
+accuracy: 0.982942
+ -- 060 / 100 --
+mean loss: 0.035012
+mean regloss: 0.004591
+accuracy: 0.983257
+ -- 070 / 100 --
+mean loss: 0.040694
+mean regloss: 0.005640
+accuracy: 0.983512
+ -- 080 / 100 --
+mean loss: 0.047155
+mean regloss: 0.007522
+accuracy: 0.983654
+ -- 090 / 100 --
+mean loss: 0.052247
+mean regloss: 0.007722
+accuracy: 0.983752
+ -- 100 / 100 --
+mean loss: 0.057352
+mean regloss: 0.008015
+accuracy: 0.983865
+**** EPOCH 074 ****
+2021-08-17 07:41:49.303417
+ -- 010 / 100 --
+mean loss: 0.005213
+mean regloss: 0.000454
+accuracy: 0.984750
+ -- 020 / 100 --
+mean loss: 0.010063
+mean regloss: 0.000664
+accuracy: 0.985292
+ -- 030 / 100 --
+mean loss: 0.015143
+mean regloss: 0.000978
+accuracy: 0.985187
+ -- 040 / 100 --
+mean loss: 0.020355
+mean regloss: 0.001644
+accuracy: 0.985234
+ -- 050 / 100 --
+mean loss: 0.027027
+mean regloss: 0.003706
+accuracy: 0.985233
+ -- 060 / 100 --
+mean loss: 0.032092
+mean regloss: 0.004296
+accuracy: 0.985392
+ -- 070 / 100 --
+mean loss: 0.037070
+mean regloss: 0.004750
+accuracy: 0.985461
+ -- 080 / 100 --
+mean loss: 0.042112
+mean regloss: 0.005138
+accuracy: 0.985477
+ -- 090 / 100 --
+mean loss: 0.049672
+mean regloss: 0.008350
+accuracy: 0.985477
+ -- 100 / 100 --
+mean loss: 0.057014
+mean regloss: 0.011021
+accuracy: 0.985429
+**** EPOCH 075 ****
+2021-08-17 07:41:50.889619
+ -- 010 / 100 --
+mean loss: 0.005239
+mean regloss: 0.000655
+accuracy: 0.984688
+ -- 020 / 100 --
+mean loss: 0.010174
+mean regloss: 0.000906
+accuracy: 0.984844
+ -- 030 / 100 --
+mean loss: 0.015155
+mean regloss: 0.001133
+accuracy: 0.985035
+ -- 040 / 100 --
+mean loss: 0.020117
+mean regloss: 0.001260
+accuracy: 0.984745
+ -- 050 / 100 --
+mean loss: 0.024797
+mean regloss: 0.001473
+accuracy: 0.984967
+ -- 060 / 100 --
+mean loss: 0.030999
+mean regloss: 0.002954
+accuracy: 0.984972
+ -- 070 / 100 --
+mean loss: 0.035898
+mean regloss: 0.003280
+accuracy: 0.985054
+ -- 080 / 100 --
+mean loss: 0.041114
+mean regloss: 0.004168
+accuracy: 0.985232
+ -- 090 / 100 --
+mean loss: 0.047004
+mean regloss: 0.005534
+accuracy: 0.985285
+ -- 100 / 100 --
+mean loss: 0.052804
+mean regloss: 0.006357
+accuracy: 0.985100
+**** EPOCH 076 ****
+2021-08-17 07:41:52.427512
+ -- 010 / 100 --
+mean loss: 0.004968
+mean regloss: 0.000131
+accuracy: 0.984313
+ -- 020 / 100 --
+mean loss: 0.010636
+mean regloss: 0.001093
+accuracy: 0.984802
+ -- 030 / 100 --
+mean loss: 0.015974
+mean regloss: 0.001620
+accuracy: 0.984708
+ -- 040 / 100 --
+mean loss: 0.021285
+mean regloss: 0.001768
+accuracy: 0.984401
+ -- 050 / 100 --
+mean loss: 0.026405
+mean regloss: 0.002355
+accuracy: 0.984621
+ -- 060 / 100 --
+mean loss: 0.031347
+mean regloss: 0.002709
+accuracy: 0.984733
+ -- 070 / 100 --
+mean loss: 0.036135
+mean regloss: 0.002993
+accuracy: 0.984866
+ -- 080 / 100 --
+mean loss: 0.042083
+mean regloss: 0.004181
+accuracy: 0.984729
+ -- 090 / 100 --
+mean loss: 0.047258
+mean regloss: 0.004730
+accuracy: 0.984796
+ -- 100 / 100 --
+mean loss: 0.053164
+mean regloss: 0.005855
+accuracy: 0.984802
+**** EPOCH 077 ****
+2021-08-17 07:41:54.000852
+ -- 010 / 100 --
+mean loss: 0.004685
+mean regloss: 0.000138
+accuracy: 0.985271
+ -- 020 / 100 --
+mean loss: 0.010019
+mean regloss: 0.000933
+accuracy: 0.985333
+ -- 030 / 100 --
+mean loss: 0.016193
+mean regloss: 0.002711
+accuracy: 0.985340
+ -- 040 / 100 --
+mean loss: 0.021404
+mean regloss: 0.003219
+accuracy: 0.985281
+ -- 050 / 100 --
+mean loss: 0.026463
+mean regloss: 0.003918
+accuracy: 0.985429
+ -- 060 / 100 --
+mean loss: 0.031738
+mean regloss: 0.004792
+accuracy: 0.985507
+ -- 070 / 100 --
+mean loss: 0.037250
+mean regloss: 0.005816
+accuracy: 0.985574
+ -- 080 / 100 --
+mean loss: 0.042746
+mean regloss: 0.006756
+accuracy: 0.985565
+ -- 090 / 100 --
+mean loss: 0.047480
+mean regloss: 0.007006
+accuracy: 0.985606
+ -- 100 / 100 --
+mean loss: 0.053221
+mean regloss: 0.008188
+accuracy: 0.985608
+**** EPOCH 078 ****
+2021-08-17 07:41:55.594971
+ -- 010 / 100 --
+mean loss: 0.004903
+mean regloss: 0.000400
+accuracy: 0.985729
+ -- 020 / 100 --
+mean loss: 0.011032
+mean regloss: 0.001829
+accuracy: 0.985094
+ -- 030 / 100 --
+mean loss: 0.016579
+mean regloss: 0.002633
+accuracy: 0.984965
+ -- 040 / 100 --
+mean loss: 0.021235
+mean regloss: 0.002944
+accuracy: 0.985224
+ -- 050 / 100 --
+mean loss: 0.025852
+mean regloss: 0.003071
+accuracy: 0.985287
+ -- 060 / 100 --
+mean loss: 0.032437
+mean regloss: 0.004719
+accuracy: 0.984969
+ -- 070 / 100 --
+mean loss: 0.037065
+mean regloss: 0.004908
+accuracy: 0.985113
+ -- 080 / 100 --
+mean loss: 0.041988
+mean regloss: 0.005207
+accuracy: 0.985154
+ -- 090 / 100 --
+mean loss: 0.047399
+mean regloss: 0.005470
+accuracy: 0.984935
+ -- 100 / 100 --
+mean loss: 0.054128
+mean regloss: 0.007215
+accuracy: 0.984652
+**** EPOCH 079 ****
+2021-08-17 07:41:57.124093
+ -- 010 / 100 --
+mean loss: 0.005340
+mean regloss: 0.000293
+accuracy: 0.983458
+ -- 020 / 100 --
+mean loss: 0.011617
+mean regloss: 0.001851
+accuracy: 0.983875
+ -- 030 / 100 --
+mean loss: 0.017798
+mean regloss: 0.003375
+accuracy: 0.984132
+ -- 040 / 100 --
+mean loss: 0.023051
+mean regloss: 0.004059
+accuracy: 0.984521
+ -- 050 / 100 --
+mean loss: 0.027773
+mean regloss: 0.004336
+accuracy: 0.984733
+ -- 060 / 100 --
+mean loss: 0.033148
+mean regloss: 0.004573
+accuracy: 0.984472
+ -- 070 / 100 --
+mean loss: 0.038479
+mean regloss: 0.005041
+accuracy: 0.984414
+ -- 080 / 100 --
+mean loss: 0.043529
+mean regloss: 0.005408
+accuracy: 0.984518
+ -- 090 / 100 --
+mean loss: 0.048223
+mean regloss: 0.005649
+accuracy: 0.984604
+ -- 100 / 100 --
+mean loss: 0.053113
+mean regloss: 0.006096
+accuracy: 0.984692
+**** EPOCH 080 ****
+2021-08-17 07:41:58.659404
+ -- 010 / 100 --
+mean loss: 0.005018
+mean regloss: 0.000204
+accuracy: 0.984563
+ -- 020 / 100 --
+mean loss: 0.010348
+mean regloss: 0.001061
+accuracy: 0.985073
+ -- 030 / 100 --
+mean loss: 0.015799
+mean regloss: 0.001844
+accuracy: 0.984882
+ -- 040 / 100 --
+mean loss: 0.021116
+mean regloss: 0.002526
+accuracy: 0.984870
+ -- 050 / 100 --
+mean loss: 0.026206
+mean regloss: 0.002796
+accuracy: 0.984617
+ -- 060 / 100 --
+mean loss: 0.030744
+mean regloss: 0.002948
+accuracy: 0.984819
+ -- 070 / 100 --
+mean loss: 0.036643
+mean regloss: 0.004290
+accuracy: 0.984839
+ -- 080 / 100 --
+mean loss: 0.041408
+mean regloss: 0.004494
+accuracy: 0.984956
+ -- 090 / 100 --
+mean loss: 0.045954
+mean regloss: 0.004665
+accuracy: 0.985046
+ -- 100 / 100 --
+mean loss: 0.051192
+mean regloss: 0.005607
+accuracy: 0.985158
+**** EPOCH 081 ****
+2021-08-17 07:42:00.221551
+ -- 010 / 100 --
+mean loss: 0.004920
+mean regloss: 0.000409
+accuracy: 0.984833
+ -- 020 / 100 --
+mean loss: 0.009812
+mean regloss: 0.000789
+accuracy: 0.985219
+ -- 030 / 100 --
+mean loss: 0.014245
+mean regloss: 0.001150
+accuracy: 0.985958
+ -- 040 / 100 --
+mean loss: 0.019136
+mean regloss: 0.001569
+accuracy: 0.985875
+ -- 050 / 100 --
+mean loss: 0.025373
+mean regloss: 0.002990
+accuracy: 0.985467
+ -- 060 / 100 --
+mean loss: 0.031019
+mean regloss: 0.004285
+accuracy: 0.985528
+ -- 070 / 100 --
+mean loss: 0.035681
+mean regloss: 0.004684
+accuracy: 0.985604
+ -- 080 / 100 --
+mean loss: 0.040409
+mean regloss: 0.005053
+accuracy: 0.985648
+ -- 090 / 100 --
+mean loss: 0.045009
+mean regloss: 0.005238
+accuracy: 0.985664
+ -- 100 / 100 --
+mean loss: 0.050474
+mean regloss: 0.006217
+accuracy: 0.985615
+**** EPOCH 082 ****
+2021-08-17 07:42:01.764463
+ -- 010 / 100 --
+mean loss: 0.004890
+mean regloss: 0.000358
+accuracy: 0.985542
+ -- 020 / 100 --
+mean loss: 0.010134
+mean regloss: 0.001047
+accuracy: 0.985698
+ -- 030 / 100 --
+mean loss: 0.016142
+mean regloss: 0.001388
+accuracy: 0.984257
+ -- 040 / 100 --
+mean loss: 0.021516
+mean regloss: 0.001564
+accuracy: 0.983938
+ -- 050 / 100 --
+mean loss: 0.026329
+mean regloss: 0.001808
+accuracy: 0.984208
+ -- 060 / 100 --
+mean loss: 0.031782
+mean regloss: 0.002478
+accuracy: 0.984226
+ -- 070 / 100 --
+mean loss: 0.036299
+mean regloss: 0.002581
+accuracy: 0.984402
+ -- 080 / 100 --
+mean loss: 0.041854
+mean regloss: 0.003925
+accuracy: 0.984599
+ -- 090 / 100 --
+mean loss: 0.048079
+mean regloss: 0.005399
+accuracy: 0.984505
+ -- 100 / 100 --
+mean loss: 0.054454
+mean regloss: 0.006537
+accuracy: 0.984277
+**** EPOCH 083 ****
+2021-08-17 07:42:03.313259
+ -- 010 / 100 --
+mean loss: 0.005217
+mean regloss: 0.000250
+accuracy: 0.983167
+ -- 020 / 100 --
+mean loss: 0.011714
+mean regloss: 0.001982
+accuracy: 0.983396
+ -- 030 / 100 --
+mean loss: 0.016941
+mean regloss: 0.002318
+accuracy: 0.983514
+ -- 040 / 100 --
+mean loss: 0.022099
+mean regloss: 0.002560
+accuracy: 0.983547
+ -- 050 / 100 --
+mean loss: 0.027556
+mean regloss: 0.002685
+accuracy: 0.983179
+ -- 060 / 100 --
+mean loss: 0.033298
+mean regloss: 0.002994
+accuracy: 0.983000
+ -- 070 / 100 --
+mean loss: 0.039597
+mean regloss: 0.004210
+accuracy: 0.983012
+ -- 080 / 100 --
+mean loss: 0.045411
+mean regloss: 0.004596
+accuracy: 0.982771
+ -- 090 / 100 --
+mean loss: 0.050316
+mean regloss: 0.004815
+accuracy: 0.982984
+ -- 100 / 100 --
+mean loss: 0.055207
+mean regloss: 0.004944
+accuracy: 0.983106
+**** EPOCH 084 ****
+2021-08-17 07:42:04.915165
+ -- 010 / 100 --
+mean loss: 0.005015
+mean regloss: 0.000621
+accuracy: 0.985229
+ -- 020 / 100 --
+mean loss: 0.009591
+mean regloss: 0.000900
+accuracy: 0.985927
+ -- 030 / 100 --
+mean loss: 0.014497
+mean regloss: 0.001145
+accuracy: 0.985403
+ -- 040 / 100 --
+mean loss: 0.019833
+mean regloss: 0.002169
+accuracy: 0.985516
+ -- 050 / 100 --
+mean loss: 0.024883
+mean regloss: 0.002608
+accuracy: 0.985383
+ -- 060 / 100 --
+mean loss: 0.029331
+mean regloss: 0.002732
+accuracy: 0.985417
+ -- 070 / 100 --
+mean loss: 0.034039
+mean regloss: 0.002927
+accuracy: 0.985351
+ -- 080 / 100 --
+mean loss: 0.038604
+mean regloss: 0.003105
+accuracy: 0.985430
+ -- 090 / 100 --
+mean loss: 0.043145
+mean regloss: 0.003220
+accuracy: 0.985396
+ -- 100 / 100 --
+mean loss: 0.049021
+mean regloss: 0.004623
+accuracy: 0.985323
+**** EPOCH 085 ****
+2021-08-17 07:42:06.458700
+ -- 010 / 100 --
+mean loss: 0.004914
+mean regloss: 0.000542
+accuracy: 0.985563
+ -- 020 / 100 --
+mean loss: 0.011881
+mean regloss: 0.003005
+accuracy: 0.985073
+ -- 030 / 100 --
+mean loss: 0.016944
+mean regloss: 0.003505
+accuracy: 0.985000
+ -- 040 / 100 --
+mean loss: 0.022202
+mean regloss: 0.004229
+accuracy: 0.984974
+ -- 050 / 100 --
+mean loss: 0.026913
+mean regloss: 0.004546
+accuracy: 0.985125
+ -- 060 / 100 --
+mean loss: 0.031757
+mean regloss: 0.004669
+accuracy: 0.984927
+ -- 070 / 100 --
+mean loss: 0.036636
+mean regloss: 0.004813
+accuracy: 0.984807
+ -- 080 / 100 --
+mean loss: 0.042422
+mean regloss: 0.006083
+accuracy: 0.984766
+ -- 090 / 100 --
+mean loss: 0.047416
+mean regloss: 0.006449
+accuracy: 0.984741
+ -- 100 / 100 --
+mean loss: 0.054053
+mean regloss: 0.008837
+accuracy: 0.984829
+**** EPOCH 086 ****
+2021-08-17 07:42:08.042117
+ -- 010 / 100 --
+mean loss: 0.004753
+mean regloss: 0.000407
+accuracy: 0.985812
+ -- 020 / 100 --
+mean loss: 0.009716
+mean regloss: 0.000668
+accuracy: 0.985052
+ -- 030 / 100 --
+mean loss: 0.015286
+mean regloss: 0.001859
+accuracy: 0.984917
+ -- 040 / 100 --
+mean loss: 0.020487
+mean regloss: 0.002890
+accuracy: 0.985151
+ -- 050 / 100 --
+mean loss: 0.025785
+mean regloss: 0.003641
+accuracy: 0.985038
+ -- 060 / 100 --
+mean loss: 0.030934
+mean regloss: 0.004292
+accuracy: 0.984986
+ -- 070 / 100 --
+mean loss: 0.035773
+mean regloss: 0.004568
+accuracy: 0.984982
+ -- 080 / 100 --
+mean loss: 0.040614
+mean regloss: 0.004942
+accuracy: 0.985005
+ -- 090 / 100 --
+mean loss: 0.045494
+mean regloss: 0.005108
+accuracy: 0.984903
+ -- 100 / 100 --
+mean loss: 0.050644
+mean regloss: 0.005566
+accuracy: 0.984835
+**** EPOCH 087 ****
+2021-08-17 07:42:09.615474
+ -- 010 / 100 --
+mean loss: 0.005139
+mean regloss: 0.000721
+accuracy: 0.984667
+ -- 020 / 100 --
+mean loss: 0.010024
+mean regloss: 0.001209
+accuracy: 0.985062
+ -- 030 / 100 --
+mean loss: 0.014310
+mean regloss: 0.001333
+accuracy: 0.985493
+ -- 040 / 100 --
+mean loss: 0.019446
+mean regloss: 0.002004
+accuracy: 0.985281
+ -- 050 / 100 --
+mean loss: 0.024071
+mean regloss: 0.002157
+accuracy: 0.985317
+ -- 060 / 100 --
+mean loss: 0.028758
+mean regloss: 0.002321
+accuracy: 0.985267
+ -- 070 / 100 --
+mean loss: 0.033756
+mean regloss: 0.003135
+accuracy: 0.985363
+ -- 080 / 100 --
+mean loss: 0.038669
+mean regloss: 0.003551
+accuracy: 0.985268
+ -- 090 / 100 --
+mean loss: 0.043296
+mean regloss: 0.003724
+accuracy: 0.985310
+ -- 100 / 100 --
+mean loss: 0.049129
+mean regloss: 0.005341
+accuracy: 0.985350
+**** EPOCH 088 ****
+2021-08-17 07:42:11.193587
+ -- 010 / 100 --
+mean loss: 0.004690
+mean regloss: 0.000261
+accuracy: 0.985021
+ -- 020 / 100 --
+mean loss: 0.009564
+mean regloss: 0.000873
+accuracy: 0.985344
+ -- 030 / 100 --
+mean loss: 0.014366
+mean regloss: 0.001501
+accuracy: 0.985667
+ -- 040 / 100 --
+mean loss: 0.018905
+mean regloss: 0.001732
+accuracy: 0.985661
+ -- 050 / 100 --
+mean loss: 0.023763
+mean regloss: 0.002302
+accuracy: 0.985650
+ -- 060 / 100 --
+mean loss: 0.028096
+mean regloss: 0.002530
+accuracy: 0.985764
+ -- 070 / 100 --
+mean loss: 0.032410
+mean regloss: 0.002616
+accuracy: 0.985818
+ -- 080 / 100 --
+mean loss: 0.038029
+mean regloss: 0.003764
+accuracy: 0.985674
+ -- 090 / 100 --
+mean loss: 0.042991
+mean regloss: 0.004165
+accuracy: 0.985535
+ -- 100 / 100 --
+mean loss: 0.047936
+mean regloss: 0.004390
+accuracy: 0.985390
+**** EPOCH 089 ****
+2021-08-17 07:42:12.758289
+ -- 010 / 100 --
+mean loss: 0.005136
+mean regloss: 0.000517
+accuracy: 0.984000
+ -- 020 / 100 --
+mean loss: 0.009547
+mean regloss: 0.000628
+accuracy: 0.984865
+ -- 030 / 100 --
+mean loss: 0.014412
+mean regloss: 0.001053
+accuracy: 0.984861
+ -- 040 / 100 --
+mean loss: 0.019662
+mean regloss: 0.001978
+accuracy: 0.984932
+ -- 050 / 100 --
+mean loss: 0.024430
+mean regloss: 0.002555
+accuracy: 0.984983
+ -- 060 / 100 --
+mean loss: 0.028922
+mean regloss: 0.002904
+accuracy: 0.985132
+ -- 070 / 100 --
+mean loss: 0.033771
+mean regloss: 0.003578
+accuracy: 0.985155
+ -- 080 / 100 --
+mean loss: 0.039012
+mean regloss: 0.004137
+accuracy: 0.984966
+ -- 090 / 100 --
+mean loss: 0.044097
+mean regloss: 0.004299
+accuracy: 0.984725
+ -- 100 / 100 --
+mean loss: 0.049981
+mean regloss: 0.005059
+accuracy: 0.984410
+**** EPOCH 090 ****
+2021-08-17 07:42:14.332803
+ -- 010 / 100 --
+mean loss: 0.006048
+mean regloss: 0.000651
+accuracy: 0.980833
+ -- 020 / 100 --
+mean loss: 0.011717
+mean regloss: 0.001249
+accuracy: 0.981646
+ -- 030 / 100 --
+mean loss: 0.016852
+mean regloss: 0.001786
+accuracy: 0.982569
+ -- 040 / 100 --
+mean loss: 0.021646
+mean regloss: 0.002029
+accuracy: 0.983078
+ -- 050 / 100 --
+mean loss: 0.026485
+mean regloss: 0.002837
+accuracy: 0.983746
+ -- 060 / 100 --
+mean loss: 0.031603
+mean regloss: 0.003670
+accuracy: 0.984073
+ -- 070 / 100 --
+mean loss: 0.036180
+mean regloss: 0.003866
+accuracy: 0.984286
+ -- 080 / 100 --
+mean loss: 0.040385
+mean regloss: 0.003995
+accuracy: 0.984534
+ -- 090 / 100 --
+mean loss: 0.044743
+mean regloss: 0.004117
+accuracy: 0.984611
+ -- 100 / 100 --
+mean loss: 0.049669
+mean regloss: 0.004758
+accuracy: 0.984692
+**** EPOCH 091 ****
+2021-08-17 07:42:15.900921
+ -- 010 / 100 --
+mean loss: 0.004345
+mean regloss: 0.000124
+accuracy: 0.985958
+ -- 020 / 100 --
+mean loss: 0.008877
+mean regloss: 0.000384
+accuracy: 0.985552
+ -- 030 / 100 --
+mean loss: 0.013693
+mean regloss: 0.001016
+accuracy: 0.985771
+ -- 040 / 100 --
+mean loss: 0.018428
+mean regloss: 0.001382
+accuracy: 0.985583
+ -- 050 / 100 --
+mean loss: 0.023461
+mean regloss: 0.001793
+accuracy: 0.985237
+ -- 060 / 100 --
+mean loss: 0.027951
+mean regloss: 0.002079
+accuracy: 0.985264
+ -- 070 / 100 --
+mean loss: 0.032319
+mean regloss: 0.002198
+accuracy: 0.985280
+ -- 080 / 100 --
+mean loss: 0.037717
+mean regloss: 0.002344
+accuracy: 0.984880
+ -- 090 / 100 --
+mean loss: 0.043043
+mean regloss: 0.003243
+accuracy: 0.984861
+ -- 100 / 100 --
+mean loss: 0.048270
+mean regloss: 0.003587
+accuracy: 0.984683
+**** EPOCH 092 ****
+2021-08-17 07:42:17.455604
+ -- 010 / 100 --
+mean loss: 0.005382
+mean regloss: 0.000745
+accuracy: 0.983167
+ -- 020 / 100 --
+mean loss: 0.010172
+mean regloss: 0.000982
+accuracy: 0.983635
+ -- 030 / 100 --
+mean loss: 0.015032
+mean regloss: 0.001295
+accuracy: 0.983965
+ -- 040 / 100 --
+mean loss: 0.019973
+mean regloss: 0.001734
+accuracy: 0.984219
+ -- 050 / 100 --
+mean loss: 0.024560
+mean regloss: 0.001951
+accuracy: 0.984475
+ -- 060 / 100 --
+mean loss: 0.029623
+mean regloss: 0.002690
+accuracy: 0.984552
+ -- 070 / 100 --
+mean loss: 0.034172
+mean regloss: 0.002851
+accuracy: 0.984625
+ -- 080 / 100 --
+mean loss: 0.040286
+mean regloss: 0.005096
+accuracy: 0.984805
+ -- 090 / 100 --
+mean loss: 0.046307
+mean regloss: 0.006973
+accuracy: 0.984877
+ -- 100 / 100 --
+mean loss: 0.050977
+mean regloss: 0.007435
+accuracy: 0.984908
+**** EPOCH 093 ****
+2021-08-17 07:42:18.984279
+ -- 010 / 100 --
+mean loss: 0.004372
+mean regloss: 0.000248
+accuracy: 0.985917
+ -- 020 / 100 --
+mean loss: 0.009910
+mean regloss: 0.001367
+accuracy: 0.985271
+ -- 030 / 100 --
+mean loss: 0.014585
+mean regloss: 0.001644
+accuracy: 0.985056
+ -- 040 / 100 --
+mean loss: 0.020583
+mean regloss: 0.002978
+accuracy: 0.984719
+ -- 050 / 100 --
+mean loss: 0.025424
+mean regloss: 0.003713
+accuracy: 0.984892
+ -- 060 / 100 --
+mean loss: 0.030387
+mean regloss: 0.004396
+accuracy: 0.984965
+ -- 070 / 100 --
+mean loss: 0.035060
+mean regloss: 0.004835
+accuracy: 0.985089
+ -- 080 / 100 --
+mean loss: 0.039742
+mean regloss: 0.005548
+accuracy: 0.985203
+ -- 090 / 100 --
+mean loss: 0.044630
+mean regloss: 0.006269
+accuracy: 0.985192
+ -- 100 / 100 --
+mean loss: 0.049320
+mean regloss: 0.006706
+accuracy: 0.985240
+**** EPOCH 094 ****
+2021-08-17 07:42:20.548695
+ -- 010 / 100 --
+mean loss: 0.005288
+mean regloss: 0.000670
+accuracy: 0.983208
+ -- 020 / 100 --
+mean loss: 0.010728
+mean regloss: 0.001248
+accuracy: 0.983156
+ -- 030 / 100 --
+mean loss: 0.016422
+mean regloss: 0.002026
+accuracy: 0.982868
+ -- 040 / 100 --
+mean loss: 0.021041
+mean regloss: 0.002302
+accuracy: 0.983526
+ -- 050 / 100 --
+mean loss: 0.026913
+mean regloss: 0.003982
+accuracy: 0.983808
+ -- 060 / 100 --
+mean loss: 0.032630
+mean regloss: 0.004748
+accuracy: 0.983660
+ -- 070 / 100 --
+mean loss: 0.037694
+mean regloss: 0.004893
+accuracy: 0.983545
+ -- 080 / 100 --
+mean loss: 0.042218
+mean regloss: 0.005032
+accuracy: 0.983753
+ -- 090 / 100 --
+mean loss: 0.046724
+mean regloss: 0.005356
+accuracy: 0.983921
+ -- 100 / 100 --
+mean loss: 0.051188
+mean regloss: 0.005449
+accuracy: 0.984042
+**** EPOCH 095 ****
+2021-08-17 07:42:22.110390
+ -- 010 / 100 --
+mean loss: 0.004398
+mean regloss: 0.000132
+accuracy: 0.985563
+ -- 020 / 100 --
+mean loss: 0.008701
+mean regloss: 0.000269
+accuracy: 0.985563
+ -- 030 / 100 --
+mean loss: 0.013517
+mean regloss: 0.000653
+accuracy: 0.985229
+ -- 040 / 100 --
+mean loss: 0.017809
+mean regloss: 0.000720
+accuracy: 0.985141
+ -- 050 / 100 --
+mean loss: 0.022251
+mean regloss: 0.000991
+accuracy: 0.985133
+ -- 060 / 100 --
+mean loss: 0.026413
+mean regloss: 0.001188
+accuracy: 0.985302
+ -- 070 / 100 --
+mean loss: 0.031313
+mean regloss: 0.001772
+accuracy: 0.985318
+ -- 080 / 100 --
+mean loss: 0.035994
+mean regloss: 0.002435
+accuracy: 0.985417
+ -- 090 / 100 --
+mean loss: 0.040337
+mean regloss: 0.002600
+accuracy: 0.985407
+ -- 100 / 100 --
+mean loss: 0.044473
+mean regloss: 0.002827
+accuracy: 0.985523
+**** EPOCH 096 ****
+2021-08-17 07:42:23.681908
+ -- 010 / 100 --
+mean loss: 0.004482
+mean regloss: 0.000126
+accuracy: 0.984583
+ -- 020 / 100 --
+mean loss: 0.008759
+mean regloss: 0.000370
+accuracy: 0.985385
+ -- 030 / 100 --
+mean loss: 0.013055
+mean regloss: 0.000495
+accuracy: 0.985479
+ -- 040 / 100 --
+mean loss: 0.018468
+mean regloss: 0.001738
+accuracy: 0.985354
+ -- 050 / 100 --
+mean loss: 0.023080
+mean regloss: 0.002378
+accuracy: 0.985450
+ -- 060 / 100 --
+mean loss: 0.027372
+mean regloss: 0.002565
+accuracy: 0.985583
+ -- 070 / 100 --
+mean loss: 0.031373
+mean regloss: 0.002639
+accuracy: 0.985804
+ -- 080 / 100 --
+mean loss: 0.035899
+mean regloss: 0.002769
+accuracy: 0.985661
+ -- 090 / 100 --
+mean loss: 0.040311
+mean regloss: 0.002974
+accuracy: 0.985537
+ -- 100 / 100 --
+mean loss: 0.044650
+mean regloss: 0.003152
+accuracy: 0.985558
+**** EPOCH 097 ****
+2021-08-17 07:42:25.261445
+ -- 010 / 100 --
+mean loss: 0.004397
+mean regloss: 0.000140
+accuracy: 0.984750
+ -- 020 / 100 --
+mean loss: 0.008566
+mean regloss: 0.000310
+accuracy: 0.985458
+ -- 030 / 100 --
+mean loss: 0.013093
+mean regloss: 0.000583
+accuracy: 0.985229
+ -- 040 / 100 --
+mean loss: 0.017354
+mean regloss: 0.000829
+accuracy: 0.985323
+ -- 050 / 100 --
+mean loss: 0.022132
+mean regloss: 0.001129
+accuracy: 0.984988
+ -- 060 / 100 --
+mean loss: 0.027014
+mean regloss: 0.001334
+accuracy: 0.984785
+ -- 070 / 100 --
+mean loss: 0.031618
+mean regloss: 0.001757
+accuracy: 0.984890
+ -- 080 / 100 --
+mean loss: 0.036169
+mean regloss: 0.002113
+accuracy: 0.985039
+ -- 090 / 100 --
+mean loss: 0.041278
+mean regloss: 0.002505
+accuracy: 0.984854
+ -- 100 / 100 --
+mean loss: 0.046155
+mean regloss: 0.002978
+accuracy: 0.984769
+**** EPOCH 098 ****
+2021-08-17 07:42:26.819276
+ -- 010 / 100 --
+mean loss: 0.004912
+mean regloss: 0.000203
+accuracy: 0.983521
+ -- 020 / 100 --
+mean loss: 0.009408
+mean regloss: 0.000439
+accuracy: 0.984344
+ -- 030 / 100 --
+mean loss: 0.013999
+mean regloss: 0.000947
+accuracy: 0.984597
+ -- 040 / 100 --
+mean loss: 0.018464
+mean regloss: 0.001058
+accuracy: 0.984724
+ -- 050 / 100 --
+mean loss: 0.023652
+mean regloss: 0.002366
+accuracy: 0.985050
+ -- 060 / 100 --
+mean loss: 0.028080
+mean regloss: 0.002501
+accuracy: 0.985153
+ -- 070 / 100 --
+mean loss: 0.032609
+mean regloss: 0.002711
+accuracy: 0.985062
+ -- 080 / 100 --
+mean loss: 0.037417
+mean regloss: 0.002984
+accuracy: 0.984867
+ -- 090 / 100 --
+mean loss: 0.041900
+mean regloss: 0.003165
+accuracy: 0.984847
+ -- 100 / 100 --
+mean loss: 0.047002
+mean regloss: 0.003995
+accuracy: 0.984773
+**** EPOCH 099 ****
+2021-08-17 07:42:28.367786
+ -- 010 / 100 --
+mean loss: 0.004309
+mean regloss: 0.000157
+accuracy: 0.985646
+ -- 020 / 100 --
+mean loss: 0.009052
+mean regloss: 0.000409
+accuracy: 0.984677
+ -- 030 / 100 --
+mean loss: 0.013290
+mean regloss: 0.000536
+accuracy: 0.984979
+ -- 040 / 100 --
+mean loss: 0.017312
+mean regloss: 0.000616
+accuracy: 0.985271
+ -- 050 / 100 --
+mean loss: 0.021644
+mean regloss: 0.000698
+accuracy: 0.985237
+ -- 060 / 100 --
+mean loss: 0.025675
+mean regloss: 0.000751
+accuracy: 0.985389
+ -- 070 / 100 --
+mean loss: 0.030332
+mean regloss: 0.001635
+accuracy: 0.985509
+ -- 080 / 100 --
+mean loss: 0.035359
+mean regloss: 0.002610
+accuracy: 0.985503
+ -- 090 / 100 --
+mean loss: 0.040012
+mean regloss: 0.003246
+accuracy: 0.985525
+ -- 100 / 100 --
+mean loss: 0.044448
+mean regloss: 0.003689
+accuracy: 0.985542
+**** EPOCH 100 ****
+2021-08-17 07:42:29.911533
+ -- 010 / 100 --
+mean loss: 0.004296
+mean regloss: 0.000143
+accuracy: 0.985021
+ -- 020 / 100 --
+mean loss: 0.008854
+mean regloss: 0.000804
+accuracy: 0.985458
+ -- 030 / 100 --
+mean loss: 0.013881
+mean regloss: 0.001678
+accuracy: 0.985556
+ -- 040 / 100 --
+mean loss: 0.018397
+mean regloss: 0.002089
+accuracy: 0.985573
+ -- 050 / 100 --
+mean loss: 0.022915
+mean regloss: 0.002624
+accuracy: 0.985592
+ -- 060 / 100 --
+mean loss: 0.027715
+mean regloss: 0.003286
+accuracy: 0.985490
+ -- 070 / 100 --
+mean loss: 0.031935
+mean regloss: 0.003455
+accuracy: 0.985512
+ -- 080 / 100 --
+mean loss: 0.036262
+mean regloss: 0.003722
+accuracy: 0.985495
+ -- 090 / 100 --
+mean loss: 0.040779
+mean regloss: 0.003958
+accuracy: 0.985333
+ -- 100 / 100 --
+mean loss: 0.045119
+mean regloss: 0.004089
+accuracy: 0.985348
+Model saved in file: log/model.ckpt

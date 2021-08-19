@@ -1,0 +1,6 @@
+cd tf_ops/3d_interpolation
+sh tf_compile.sh
+cd tf_ops/
+sh tf_compile.sh
+cd tf_ops/3d_interpolation
+sh tf_compile.sh
