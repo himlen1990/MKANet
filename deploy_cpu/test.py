@@ -41,7 +41,7 @@ def predict(data):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print "usage: test.py file_name.ply"
+        print("usage: test.py file_name.ply")
         sys.exit(0)
     file_name = sys.argv[1]
     pointcloud = load_ply(file_name)

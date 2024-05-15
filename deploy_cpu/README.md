@@ -8,11 +8,14 @@
 - Tensorflow 1.4 (running within anaconda is recommended)
 
 ```bash
-pip install tensorflow==1.4.0
+pip install tensorflow==1.15.0 protobuf==3.20.0 matplotlib plyfile h5py
 ```
 
 ## Compile tensorflow operator in CPU ver
 ```bash
+cd <your anaconda root>/envs/teapot/lib/python3.7/site-packages/tensorflow_core
+ln -s libtensorflow_framework.so.1 libtensorflow_framework.so
+cd <...>/MKANet/deploy_cpu/
 sh tf_complie.sh
 ```
 
