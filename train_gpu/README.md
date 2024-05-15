@@ -20,10 +20,9 @@ cp scene_bottlecup.h5 ../train_gpu/demo
 ```
 
 ## Compile tensorflow operator
+```bash
 cd <your anaconda root>/envs/mknet/lib/python3.7/site-packages/tensorflow_core
 ln -s libtensorflow_framework.so.1 libtensorflow_framework.so
-
-```bash
 cd ../train_gpu/utils/tf_ops/
 sh compile.sh
 ```
