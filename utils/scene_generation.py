@@ -1,4 +1,4 @@
-from plyfile import (PlyData, PlyElement, make2d, PlyParseError, PlyProperty)
+from plyfile import (PlyData, PlyElement, PlyParseError, PlyProperty)
 import numpy as np
 import random
 import h5py
@@ -24,7 +24,7 @@ def label_normalize(pointcloud,label,has_function_part=True):
 def load_point_cloud_and_label(obj_dir, obj_list, label_list):
     for obj_num in glob.glob(os.path.join(obj_dir,'*')):
         for plyfile in glob.glob(os.path.join(obj_num,'*.ply')):
-            print "processing file: ",plyfile
+            print("processing file: ",plyfile)
             plydata = PlyData.read(plyfile)
             pc = plydata['vertex'].data
             pc_to_array = np.asarray(pc.tolist())
@@ -56,7 +56,7 @@ def generate_scence(obj1_dir, obj2l_dir, obj2r_dir, num_scenes=100):
     for i in range(num_scenes):
         side_flag = False # false-> right, true-> left
 
-        cloud_idx1 = random.sample(range(len(obj1)), 1) 
+        cloud_idx1 = random.sample([*range(len(obj1))], 1) 
 
         jitter_x1 = random.uniform(0.2,1.0)
         jitter_y1 = random.uniform(-0.7,0.7)
@@ -73,17 +73,17 @@ def generate_scence(obj1_dir, obj2l_dir, obj2r_dir, num_scenes=100):
 
         if jitter_y2 > jitter_y1:                        
             side_flag = True
-            cloud_idx2 = random.sample(range(len(obj2l)), 1) 
+            cloud_idx2 = random.sample([*range(len(obj2l))], 1) 
             count_left = count_left+1
         else: 
-            cloud_idx2 = random.sample(range(len(obj2r)), 1) 
+            cloud_idx2 = random.sample([*range(len(obj2r))], 1) 
             count_right= count_right+1
 
         dis = math.sqrt((jitter_x2-jitter_x1)**2 +
                         (jitter_y2-jitter_y1)**2 +
                         (jitter_z2-jitter_z1)**2)
         while(dis<0.2):
-            print "dis less than 0.2, dis= ", dis
+            print("dis less than 0.2, dis= ", dis)
             jitter_x2 = random.uniform(0,1.0)
             jitter_z2 = random.uniform(0,1.0)
             dis = math.sqrt((jitter_x2-jitter_x1)**2 +
@@ -114,11 +114,11 @@ def generate_scence(obj1_dir, obj2l_dir, obj2r_dir, num_scenes=100):
 
         scene = np.concatenate([jittered_cloud1,jittered_cloud2])[:,:5]
 
-        sample_points_idx = random.sample(range(scene.shape[0]), int(scene.shape[0])*1/2)
+        sample_points_idx = random.sample([*range(scene.shape[0])], int(scene.shape[0]*1/2))
         sampled_pc = scene[sample_points_idx,:]
         if sampled_pc.shape[0] > num_points:
                 num_drop = sampled_pc.shape[0] - num_points
-                drop_idx = random.sample(range(sampled_pc.shape[0]), num_drop) 
+                drop_idx = random.sample([*range(sampled_pc.shape[0])], num_drop) 
                 sampled_pc[drop_idx, 4] = -1
                 reshape_pc = sampled_pc[sampled_pc[:,4] > -1]
         elif sampled_pc.shape[0] < num_points: # pad with zeros
@@ -135,8 +135,8 @@ def generate_scence(obj1_dir, obj2l_dir, obj2r_dir, num_scenes=100):
         scene_label = np.r_[label1[cloud_idx1[0]],obj2_lable]        
         generated_scene_label.append(scene_label)
 
-    print "left: ", count_left
-    print "right: ", count_right
+    print("left: ", count_left)
+    print("right: ", count_right)
     return np.array(generated_scene),np.array(generated_scene_label)
 
 if __name__ == "__main__":
