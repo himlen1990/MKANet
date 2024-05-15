@@ -5,7 +5,7 @@
 ---
 ## Environment
 ---
-- Tensorflow 1.4 (running within anaconda is recommended)
+- Tensorflow 1.15.0 (running within anaconda is recommended)
 
 ```bash
 pip install tensorflow==1.15.0 protobuf==3.20.0 matplotlib plyfile h5py
