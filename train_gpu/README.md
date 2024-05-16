@@ -3,23 +3,12 @@
 ---
 ## Environment
 ---
-- Ubuntu14.04/16.04 and Tensorflow-gpu version (1.4 - 1.11) (docker is recommended)
+- Ubuntu18.04 and Tensorflow-gpu version (1.15.0)
 
-## Docker Setup
-- Create docker image
 ```bash
-docker pull nvidia/cuda:8.0-cudnn6-devel-ubuntu16.04
-```
--Create docker container
-```bash
-docker run -it --gpus all nvidia/cuda:8.0-cudnn6-devel-ubuntu16.04
-```
--Inside docker container, run
-```bash
-apt-get update
-apt-get install python python-pip git 
-pip install numpy==1.16.2 mock==2.0.0 h5py==2.9.0 Markdown==3.0.1 tensorflow-gpu==1.4.0 plyfile h5py
-cd
+conda create -n mknet python=3.7
+conda activate mknet
+pip install tensorflow-gpu==1.15.0 protobuf==3.20.0 h5py plyfile 
 git clone https://github.com/himlen1990/MKAnet.git
 ```
 
@@ -32,6 +21,8 @@ cp scene_bottlecup.h5 ../train_gpu/demo
 
 ## Compile tensorflow operator
 ```bash
+cd <your anaconda root>/envs/mknet/lib/python3.7/site-packages/tensorflow_core
+ln -s libtensorflow_framework.so.1 libtensorflow_framework.so
 cd ../train_gpu/utils/tf_ops/
 sh compile.sh
 ```

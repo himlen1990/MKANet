@@ -11,7 +11,7 @@ import sys
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(BASE_DIR)
 sys.path.append(os.path.join(BASE_DIR, 'utils'))
-print BASE_DIR
+
 import provider
 import tf_util
 import random
@@ -107,7 +107,7 @@ def train():
             batch = tf.Variable(0)
             bn_decay = get_bn_decay(batch)
 
-            print "--- Get model and loss"
+            print("--- Get model and loss")
             # Get model and loss 
             clspred, regpred, end_points = MODEL.get_model(pointclouds_pl, is_training_pl, NUM_CLASSES, bn_decay=bn_decay)
             clsloss,regloss,loss = MODEL.get_loss(clspred, regpred, clslabels_pl, reglabels_pl)
@@ -116,7 +116,7 @@ def train():
             accuracy = tf.reduce_sum(tf.cast(correct, tf.float32)) / float(BATCH_SIZE*NUM_POINT)
 
 
-            print "--- Get training operator"
+            print("--- Get training operator")
             # Get training operator
             learning_rate = get_learning_rate(batch)
             tf.summary.scalar('learning_rate', learning_rate)
@@ -182,10 +182,10 @@ def train_one_epoch(sess, ops):
 
     data, clslabel, reglabel = load_dataset("./demo/scene_bottlecup.h5")
     sh_data, sh_clslabel, sh_reglabel = shuffle_data(data,clslabel, reglabel)
-    num_batches = len(data)/BATCH_SIZE
+    num_batches = int(len(data)/BATCH_SIZE)
 
     
-    for batch_idx in range(num_batches):
+    for batch_idx in [*range(num_batches)]:
         start_idx = batch_idx * BATCH_SIZE
         end_idx = (batch_idx+1) * BATCH_SIZE
         batch_data = sh_data[start_idx : end_idx,...]

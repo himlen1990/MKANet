@@ -1,5 +1,5 @@
 #/bin/bash
-CUDA_ROOT=/usr/local/cuda-8.0
+CUDA_ROOT=/usr/local/cuda
 TF_INC=$(python -c 'import tensorflow as tf; print(tf.sysconfig.get_include())')
 TF_LIB=$(python -c 'import tensorflow as tf; print(tf.sysconfig.get_lib())')
 
